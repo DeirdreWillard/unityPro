@@ -232,14 +232,13 @@ public class CreateBJRoom : MonoBehaviour
             JokpToggle.transform.parent.gameObject.SetActive(false);
         }
         // 检查 msg.Config 是否为 null 或包含无效数据
-        if(msg.Floor != 0) return;
         if (msg == null || msg.Config == null)
         {
             // 如果配置为空，应用默认配置
             ApplyDefaultConfig();
             return;
         }
-
+        if(msg.Floor != 0) return;
         int baseCoinIndex = Array.IndexOf(baseCoins, msg.Config.BaseCoin);
         if (baseCoinIndex != -1)
         {

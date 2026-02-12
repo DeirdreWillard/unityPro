@@ -509,6 +509,24 @@ public class GlobalManager
         return expend;
     }
 
+    /// <summary>
+    /// 按局数获取创建房间消耗钻石数
+    /// </summary>
+    /// <param name="methodType">玩法类型</param>
+    /// <param name="round">局数</param>
+    /// <param name="type">房间类型</param>
+    /// <returns>消耗钻石数，未找到返回0</returns>
+    public int GetCreateDeskCostByRound(MethodType methodType, int round, DeskType type)
+    {
+        if (msg_CreateDeskConfig == null) return 0;
+        if (type == DeskType.Simple && GetConstants(24) == 1) return 0;
+
+        // 筛选按局数计费(costType==1)且玩法类型匹配的配置
+        Msg_CreateDeskConfig config = msg_CreateDeskConfig.FirstOrDefault(item =>
+            item.MethodType == methodType && item.CostType == 1 && item.CostRound == round);
+        return config?.BaseCoin ?? 0;
+    }
+
     #endregion
 
     #region 系统常量

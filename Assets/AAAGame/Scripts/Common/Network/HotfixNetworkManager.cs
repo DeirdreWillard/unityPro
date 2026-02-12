@@ -138,8 +138,9 @@ public class HotfixNetworkManager : MonoBehaviour
         bool coolingDown = (currentTime - lastReconnectAttemptTime) < reconnectDelay;
         
         // 添加处理中检查，避免重复触发（未登录状态如登录界面不触发自动重连）
-        if (isLogin && !m_IsInBackground && !isReconnecting && !isManualDisconnect && !isSilentlyReconnecting && 
-            !coolingDown && !m_IsProcessingReconnect && hotfixNetworkComponent.CheckGameToReconnect())
+        if (isLogin && !Util.InLoginProcedure() && !m_IsInBackground && !isReconnecting && 
+            !isManualDisconnect && !isSilentlyReconnecting && !coolingDown && !m_IsProcessingReconnect && 
+            hotfixNetworkComponent.CheckGameToReconnect())
         {
             m_IsProcessingReconnect = true; // 设置正在处理标记
             lastReconnectAttemptTime = currentTime; // 更新上次尝试时间

@@ -109,7 +109,6 @@ public class CreateDZRoom : MonoBehaviour
 
 	public void ApplyDeskConfigToUI(Msg_CreateDeskRq msg)
 	{
-        if(msg.Floor != 0) return;
 		if (msg == null)
 		{
 			if (createroom.leagueInfo == null) {
@@ -133,6 +132,7 @@ public class CreateDZRoom : MonoBehaviour
 			}
 		}
 		else {
+			if (msg.Floor != 0) return;
 			Slider_MangZhu.value = 0;
 			int index;
 

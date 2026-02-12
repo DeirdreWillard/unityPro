@@ -72,7 +72,6 @@ public class CreateNNRoom : MonoBehaviour
 
     public void ApplyDeskConfigToUI(Msg_CreateDeskRq msg)
     {
-        if(msg.Floor != 0) return;
         // 检查 msg.Config 是否为 null 或包含无效数据
         if (msg == null)
         {
@@ -90,6 +89,7 @@ public class CreateNNRoom : MonoBehaviour
             }
         }
         else {
+            if (msg.Floor != 0) return;
 
             // 设置底分 Slider 的值
             int baseCoinIndex = Array.IndexOf(baseCoins, msg.Config.BaseCoin);

@@ -20,6 +20,12 @@ public class AppBackgroundHandler : MonoBehaviour
         {
             return;
         }
+
+        if (Util.InLoginProcedure())
+        {
+            GF.LogInfo("[AppBackgroundHandler] 登录前流程，跳过后台处理");
+            return;
+        }
         if (pauseStatus)
         {
             // 应用进入后台
