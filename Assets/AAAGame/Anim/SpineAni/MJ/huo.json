@@ -1,0 +1,301 @@
+{
+  "skeleton": {
+    "width": 150.4,
+    "height": 198,
+    "hash": " ",
+    "images": "",
+    "spine": "3.8.33"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone",
+      "parent": "root"
+    },
+    {
+      "name": "huo 1",
+      "parent": "bone",
+      "x": 490.64,
+      "y": -4.11
+    },
+    {
+      "name": "huo 2",
+      "parent": "bone",
+      "x": 532.69,
+      "y": -6.06
+    },
+    {
+      "name": "huo 3",
+      "parent": "bone",
+      "x": 555.18,
+      "y": -6.06
+    },
+    {
+      "name": "huo 4",
+      "parent": "bone",
+      "x": 586.48,
+      "y": -6.06
+    },
+    {
+      "name": "huohua",
+      "parent": "bone",
+      "x": -13.99,
+      "y": 71.04
+    },
+    {
+      "name": "huohua 2",
+      "parent": "bone",
+      "x": 13.93,
+      "y": 74.85
+    }
+  ],
+  "slots": [
+    {
+      "name": "huo 4",
+      "bone": "huo 4",
+      "attachment": "huo 4"
+    },
+    {
+      "name": "huo 3",
+      "bone": "huo 3",
+      "attachment": "huo 3"
+    },
+    {
+      "name": "huo 2",
+      "bone": "huo 2",
+      "attachment": "huo 2"
+    },
+    {
+      "name": "huo 1",
+      "bone": "huo 1",
+      "attachment": "huo 1"
+    },
+    {
+      "name": "huohua",
+      "bone": "huohua",
+      "attachment": "huohua"
+    },
+    {
+      "name": "huohua 2",
+      "bone": "huohua 2",
+      "attachment": "huohua 2"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "huo 1": {
+          "huo 1": {
+            "x": -492.5,
+            "y": 7.89,
+            "width": 150,
+            "height": 198
+          }
+        },
+        "huo 2": {
+          "huo 2": {
+            "x": -534.95,
+            "y": 9.85,
+            "width": 150,
+            "height": 198
+          }
+        },
+        "huo 3": {
+          "huo 3": {
+            "x": -557.44,
+            "y": 9.85,
+            "width": 150,
+            "height": 198
+          }
+        },
+        "huo 4": {
+          "huo 4": {
+            "x": -588.74,
+            "y": 9.85,
+            "width": 150,
+            "height": 198
+          }
+        },
+        "huohua": {
+          "huohua": {
+            "x": 0.36,
+            "y": -0.33,
+            "width": 11,
+            "height": 7
+          }
+        },
+        "huohua 2": {
+          "huohua 2": {
+            "x": -1.43,
+            "y": -0.51,
+            "width": 8,
+            "height": 6
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "animation": {
+      "slots": {
+        "huo 1": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "huo 2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "huo 3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "huo 4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "huohua": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3333,
+              "angle": 163.69
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 6.59
+            },
+            {
+              "time": 0.3333,
+              "x": 0,
+              "y": 14.84
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.3333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "huohua 2": {
+          "translate": [
+            {
+              "time": 0.0333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3667,
+              "x": 0,
+              "y": 5.93
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.3667,
+              "x": 0.4,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

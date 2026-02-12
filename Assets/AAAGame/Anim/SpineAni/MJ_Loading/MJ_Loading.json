@@ -1,0 +1,287 @@
+{
+  "skeleton": {
+    "hash": " ",
+    "spine": "3.8.75",
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "images": "./",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "frame",
+      "bone": "root",
+      "attachment": "frame_0"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "frame": {
+          "frame_0": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 60
+          },
+          "frame_1": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 53
+          },
+          "frame_2": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 53
+          },
+          "frame_3": {
+            "x": 0,
+            "y": 0,
+            "width": 60,
+            "height": 56
+          },
+          "frame_4": {
+            "x": 0,
+            "y": 0,
+            "width": 60,
+            "height": 57
+          },
+          "frame_5": {
+            "x": 0,
+            "y": 0,
+            "width": 59,
+            "height": 57
+          },
+          "frame_6": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 59
+          },
+          "frame_7": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 60
+          },
+          "frame_8": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 60
+          },
+          "frame_9": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 58
+          },
+          "frame_10": {
+            "x": 0,
+            "y": 0,
+            "width": 59,
+            "height": 58
+          },
+          "frame_11": {
+            "x": 0,
+            "y": 0,
+            "width": 59,
+            "height": 59
+          },
+          "frame_12": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 59
+          },
+          "frame_13": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 59
+          },
+          "frame_14": {
+            "x": 0,
+            "y": 0,
+            "width": 55,
+            "height": 57
+          },
+          "frame_15": {
+            "x": 0,
+            "y": 0,
+            "width": 60,
+            "height": 55
+          },
+          "frame_16": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 58
+          },
+          "frame_17": {
+            "x": 0,
+            "y": 0,
+            "width": 54,
+            "height": 60
+          },
+          "frame_18": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 59
+          },
+          "frame_19": {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 55
+          },
+          "frame_20": {
+            "x": 0,
+            "y": 0,
+            "width": 53,
+            "height": 48
+          },
+          "frame_21": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 46
+          },
+          "frame_22": {
+            "x": 0,
+            "y": 0,
+            "width": 55,
+            "height": 55
+          },
+          "frame_23": {
+            "x": 0,
+            "y": 0,
+            "width": 56,
+            "height": 60
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "loading": {
+      "slots": {
+        "frame": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "frame_0"
+            },
+            {
+              "time": 0.07692307692307693,
+              "name": "frame_1"
+            },
+            {
+              "time": 0.15384615384615385,
+              "name": "frame_2"
+            },
+            {
+              "time": 0.23076923076923078,
+              "name": "frame_3"
+            },
+            {
+              "time": 0.3076923076923077,
+              "name": "frame_4"
+            },
+            {
+              "time": 0.38461538461538464,
+              "name": "frame_5"
+            },
+            {
+              "time": 0.46153846153846156,
+              "name": "frame_6"
+            },
+            {
+              "time": 0.5384615384615385,
+              "name": "frame_7"
+            },
+            {
+              "time": 0.6153846153846154,
+              "name": "frame_8"
+            },
+            {
+              "time": 0.6923076923076923,
+              "name": "frame_9"
+            },
+            {
+              "time": 0.7692307692307693,
+              "name": "frame_10"
+            },
+            {
+              "time": 0.8461538461538463,
+              "name": "frame_11"
+            },
+            {
+              "time": 0.9230769230769231,
+              "name": "frame_12"
+            },
+            {
+              "time": 1,
+              "name": "frame_13"
+            },
+            {
+              "time": 1.076923076923077,
+              "name": "frame_14"
+            },
+            {
+              "time": 1.153846153846154,
+              "name": "frame_15"
+            },
+            {
+              "time": 1.2307692307692308,
+              "name": "frame_16"
+            },
+            {
+              "time": 1.3076923076923077,
+              "name": "frame_17"
+            },
+            {
+              "time": 1.3846153846153846,
+              "name": "frame_18"
+            },
+            {
+              "time": 1.4615384615384617,
+              "name": "frame_19"
+            },
+            {
+              "time": 1.5384615384615385,
+              "name": "frame_20"
+            },
+            {
+              "time": 1.6153846153846154,
+              "name": "frame_21"
+            },
+            {
+              "time": 1.6923076923076925,
+              "name": "frame_22"
+            },
+            {
+              "time": 1.7692307692307694,
+              "name": "frame_23"
+            },
+            {
+              "time": 1.8461538461538463,
+              "name": "frame_0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+﻿
+Up.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+font_yunshi
+  rotate: false
+  xy: 638, 215
+  size: 62, 33
+  orig: 62, 33
+  offset: 0, 0
+  index: -1
+guang1
+  rotate: false
+  xy: 2, 108
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang10
+  rotate: true
+  xy: 428, 2
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang2
+  rotate: false
+  xy: 108, 108
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang3
+  rotate: true
+  xy: 2, 2
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang4
+  rotate: false
+  xy: 214, 108
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang5
+  rotate: true
+  xy: 144, 2
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang6
+  rotate: false
+  xy: 320, 108
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang7
+  rotate: false
+  xy: 426, 108
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang8
+  rotate: true
+  xy: 286, 2
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+guang9
+  rotate: false
+  xy: 532, 108
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+shangs
+  rotate: false
+  xy: 570, 59
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+﻿
+huo.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo 1
+  rotate: false
+  xy: 2, 11
+  size: 150, 198
+  orig: 150, 198
+  offset: 0, 0
+  index: -1
+huo 2
+  rotate: false
+  xy: 154, 11
+  size: 150, 198
+  orig: 150, 198
+  offset: 0, 0
+  index: -1
+huo 3
+  rotate: false
+  xy: 306, 11
+  size: 150, 198
+  orig: 150, 198
+  offset: 0, 0
+  index: -1
+huo 4
+  rotate: false
+  xy: 458, 11
+  size: 150, 198
+  orig: 150, 198
+  offset: 0, 0
+  index: -1
+huohua
+  rotate: false
+  xy: 2, 2
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+huohua 2
+  rotate: false
+  xy: 610, 203
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1

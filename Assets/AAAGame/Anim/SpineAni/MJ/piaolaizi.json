@@ -1,0 +1,627 @@
+{
+  "skeleton": {
+    "width": 793,
+    "height": 671,
+    "hash": " ",
+    "name": "armatureName",
+    "spine": "3.8.75"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "x": 0.01,
+      "y": 0.01,
+      "name": "bone",
+      "parent": "root"
+    },
+    {
+      "x": 3.57,
+      "y": 0.09,
+      "name": "zi",
+      "parent": "bone"
+    },
+    {
+      "x": 0.08,
+      "y": 0.05,
+      "name": "shandian",
+      "parent": "bone"
+    },
+    {
+      "x": -10.68,
+      "y": -3.76,
+      "name": "shandian 2",
+      "parent": "shandian"
+    },
+    {
+      "x": -1.58,
+      "name": "piao",
+      "parent": "zi"
+    },
+    {
+      "x": -1.53,
+      "y": -10.62,
+      "name": "shandian 1",
+      "parent": "shandian"
+    },
+    {
+      "x": -1.58,
+      "y": 1.58,
+      "name": "shandian 6",
+      "parent": "zi"
+    },
+    {
+      "x": -10.68,
+      "y": -16.34,
+      "name": "shandian 3",
+      "parent": "shandian"
+    },
+    {
+      "x": 5.33,
+      "y": -19.78,
+      "name": "shandian 4",
+      "parent": "shandian"
+    },
+    {
+      "x": -6.11,
+      "y": -28.93,
+      "name": "shandian 5",
+      "parent": "shandian"
+    }
+  ],
+  "slots": [
+    {
+      "name": "shandian 5",
+      "bone": "shandian 5",
+      "attachment": "shandian 5"
+    },
+    {
+      "name": "shandian 4",
+      "bone": "shandian 4",
+      "attachment": "shandian 4"
+    },
+    {
+      "name": "shandian 3",
+      "bone": "shandian 3",
+      "attachment": "shandian 3"
+    },
+    {
+      "name": "shandian 2",
+      "bone": "shandian 2",
+      "attachment": "shandian 2"
+    },
+    {
+      "name": "shandian 1",
+      "bone": "shandian 1",
+      "attachment": "shandian 1"
+    },
+    {
+      "name": "shandian 6",
+      "bone": "shandian 6",
+      "attachment": "shandian 6"
+    },
+    {
+      "name": "piao",
+      "bone": "piao",
+      "attachment": "piao"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "shandian 5": {
+          "shandian 5": {
+            "name": "shandian 5",
+            "width": 766,
+            "height": 668,
+            "x": 6.52,
+            "y": 48.83,
+            "rotation": -20.28
+          }
+        },
+        "shandian 4": {
+          "shandian 4": {
+            "name": "shandian 4",
+            "width": 652,
+            "height": 551,
+            "x": -5.42,
+            "y": 39.67,
+            "rotation": -20.28
+          }
+        },
+        "shandian 3": {
+          "shandian 3": {
+            "name": "shandian 3",
+            "width": 780,
+            "height": 670,
+            "x": 11.09,
+            "y": 36.24,
+            "rotation": -20.28
+          }
+        },
+        "shandian 2": {
+          "shandian 2": {
+            "name": "shandian 2",
+            "width": 790,
+            "height": 664,
+            "x": 11.09,
+            "y": 23.16,
+            "rotation": -20.28
+          }
+        },
+        "shandian 1": {
+          "shandian 1": {
+            "name": "shandian 1",
+            "width": 739,
+            "height": 641,
+            "x": 1.44,
+            "y": 30.52,
+            "rotation": -20.28
+          }
+        },
+        "shandian 6": {
+          "shandian 6": {
+            "name": "shandian 6",
+            "width": 562,
+            "height": 567,
+            "x": 0.66,
+            "y": 6.27
+          }
+        },
+        "piao": {
+          "piao": {
+            "name": "piao",
+            "width": 188,
+            "height": 156,
+            "x": 4.66,
+            "y": -1.99
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "animation": {
+      "bones": {
+        "piao": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.3,
+              "x": 1.09,
+              "y": 1.09
+            },
+            {
+              "time": 0.3667,
+              "curve": "stepped",
+              "x": 1.4,
+              "y": 1.4
+            },
+            {
+              "time": 1.3,
+              "x": 1.4,
+              "y": 1.4
+            },
+            {
+              "time": 1.3667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "zi": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.98,
+              "y": 1.98
+            },
+            {
+              "time": 0.1667,
+              "x": 0.73,
+              "y": 0.73
+            }
+          ]
+        },
+        "shandian 6": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2334,
+              "x": 0.56,
+              "y": 0.56
+            },
+            {
+              "time": 0.6667,
+              "curve": "stepped",
+              "x": 1.8,
+              "y": 1.8
+            },
+            {
+              "time": 0.9,
+              "curve": "stepped",
+              "x": 1.8,
+              "y": 1.8
+            },
+            {
+              "time": 1.2667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "shandian 1": {
+          "scale": [
+            {
+              "time": 0,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.4666,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4999,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5332,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7665,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7998,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8331,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8664,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.0997,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.133,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.1663,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 1.2996,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "shandian 2": {
+          "scale": [
+            {
+              "time": 0,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.5333,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5666,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5999,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.8332,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.8665,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8998,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9331,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "shandian 5": {
+          "scale": [
+            {
+              "time": 0,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7333,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7666,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7999,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.0332,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.0665,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.0998,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.1331,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "shandian 4": {
+          "scale": [
+            {
+              "time": 0,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6666,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6999,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7332,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.9665,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.9998,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.0331,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.0664,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "shandian 3": {
+          "scale": [
+            {
+              "time": 0,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.5667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6666,
+              "curve": "stepped",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.8999,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.9332,
+              "curve": "stepped",
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9665,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9998,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "shandian": {
+          "translate": [
+            {
+              "time": 0
+            },
+            {
+              "time": 0.5333,
+              "y": 20
+            },
+            {
+              "time": 0.5666,
+              "x": 20
+            },
+            {
+              "time": 0.5999,
+              "x": 20,
+              "y": -10
+            },
+            {
+              "time": 0.6332,
+              "y": 20
+            },
+            {
+              "time": 0.6665,
+              "x": -10,
+              "y": 10
+            },
+            {
+              "time": 0.6998,
+              "x": -10,
+              "y": 40
+            },
+            {
+              "time": 0.7331,
+              "x": 20,
+              "y": 40
+            },
+            {
+              "time": 0.7664,
+              "x": 20,
+              "y": 30
+            },
+            {
+              "time": 0.7997,
+              "x": 20
+            },
+            {
+              "time": 0.833,
+              "x": 40
+            },
+            {
+              "time": 0.8663,
+              "x": 10
+            },
+            {
+              "time": 0.8996,
+              "x": 10,
+              "y": -10
+            },
+            {
+              "time": 0.9329,
+              "x": 10
+            }
+          ]
+        }
+      }
+    }
+  }
+}

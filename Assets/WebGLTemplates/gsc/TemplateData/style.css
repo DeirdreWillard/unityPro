@@ -1,0 +1,77 @@
+/* style.css - 自定义样式文件 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
+  background: #222;
+  color: #fff;
+}
+
+#unity-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px #000;
+  background: #222;
+  margin: 0 auto;
+}
+
+#unity-loading-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  margin: auto;
+  width: 60%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#unity-progress-bar-empty {
+  width: 90%;
+  height: 10px;
+  background: #444;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#unity-progress-bar-full {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4caf50, #2196f3);
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+canvas#unity-canvas {
+  display: block;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+}
+
+#loading-text {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* 响应式样式 */
+@media screen and (max-width: 768px) {
+  #unity-loading-bar {
+    width: 80%;
+  }
+  
+  #loading-text {
+    font-size: 18px;
+  }
+}

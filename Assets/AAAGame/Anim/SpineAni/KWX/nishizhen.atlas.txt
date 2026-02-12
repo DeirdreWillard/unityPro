@@ -1,0 +1,34 @@
+﻿
+nishizhen.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+d
+  rotate: false
+  xy: 2, 2
+  size: 620, 183
+  orig: 620, 183
+  offset: 0, 0
+  index: -1
+font2
+  rotate: false
+  xy: 624, 95
+  size: 204, 90
+  orig: 204, 90
+  offset: 0, 0
+  index: -1
+jt11
+  rotate: false
+  xy: 624, 15
+  size: 71, 78
+  orig: 71, 78
+  offset: 0, 0
+  index: -1
+jt12
+  rotate: false
+  xy: 830, 107
+  size: 69, 78
+  orig: 69, 78
+  offset: 0, 0
+  index: -1

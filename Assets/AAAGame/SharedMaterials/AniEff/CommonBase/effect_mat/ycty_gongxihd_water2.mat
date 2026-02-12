@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ycty_gongxihd_water2
+  m_Shader: {fileID: 4800000, guid: 4827a75a715b8354bbf47e11b677610d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_Tex:
+        m_Texture: {fileID: 2800000, guid: 5c7999dc0c0ba5341a0d0a93a70f6474, type: 3}
+        m_Scale: {x: 2, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 93cef8731cada8f49bdc78fee6143caf, type: 3}
+        m_Scale: {x: 0.7, y: 2}
+        m_Offset: {x: 0, y: 0.6}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.3
+    - _Cutoff: 0.5
+    - _Dist_SppedX: 0
+    - _Dist_SppedY: 15
+    - _Dist_amountX: 2
+    - _Dist_amountY: 0.35
+    - _MT_Rotate: 0
+    - _MainTex_Power: 6
+    - _diss_amount: 0.205
+    - _particle_controlA: 0
+    m_Colors:
+    - _MainColor: {r: 0.34042364, g: 0.48574752, b: 0.8490566, a: 1}

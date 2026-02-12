@@ -1,0 +1,139 @@
+﻿
+chuntian.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 400, 67
+  size: 131, 134
+  orig: 131, 134
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 533, 57
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 672, 137
+  size: 89, 93
+  orig: 89, 93
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 243, 66
+  size: 155, 135
+  orig: 155, 135
+  offset: 0, 0
+  index: -1
+06
+  rotate: true
+  xy: 736, 442
+  size: 68, 221
+  orig: 68, 221
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 821, 244
+  size: 89, 115
+  orig: 89, 115
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 562, 376
+  size: 172, 134
+  orig: 172, 134
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 634, 67
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 927, 366
+  size: 74, 95
+  orig: 74, 95
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 710, 236
+  size: 109, 123
+  orig: 109, 123
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 959, 457
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 562, 232
+  size: 146, 142
+  orig: 146, 142
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 320, 13
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 243, 2
+  size: 75, 62
+  orig: 75, 62
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 562, 134
+  size: 96, 108
+  orig: 96, 108
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 2, 203
+  size: 558, 307
+  orig: 558, 307
+  offset: 0, 0
+  index: -1
+18
+  rotate: true
+  xy: 763, 163
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1
+20
+  rotate: false
+  xy: 2, 42
+  size: 239, 159
+  orig: 239, 159
+  offset: 0, 0
+  index: -1
+txt
+  rotate: false
+  xy: 736, 361
+  size: 189, 79
+  orig: 189, 79
+  offset: 0, 0
+  index: -1

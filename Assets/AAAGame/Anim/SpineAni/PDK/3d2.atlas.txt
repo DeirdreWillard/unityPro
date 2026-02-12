@@ -1,0 +1,13 @@
+﻿
+3d2.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F-3d2
+  rotate: false
+  xy: 0, 0
+  size: 198, 70
+  orig: 198, 70
+  offset: 0, 0
+  index: -1

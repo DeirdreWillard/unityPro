@@ -1,0 +1,34 @@
+﻿
+zuihousizhang.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+juxing
+  rotate: false
+  xy: 1, 1
+  size: 1280, 134
+  orig: 1280, 134
+  offset: 0, 0
+  index: -1
+zh
+  rotate: false
+  xy: 1718, 95
+  size: 207, 92
+  orig: 207, 92
+  offset: 0, 0
+  index: -1
+sz
+  rotate: false
+  xy: 1718, 1
+  size: 208, 92
+  orig: 208, 92
+  offset: 0, 0
+  index: -1
+xie light
+  rotate: false
+  xy: 1283, 1
+  size: 433, 283
+  orig: 433, 283
+  offset: 0, 0
+  index: -1

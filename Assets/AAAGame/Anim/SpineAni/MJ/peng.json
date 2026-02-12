@@ -1,0 +1,498 @@
+{
+  "skeleton": {
+    "width": 242.77,
+    "height": 175.71,
+    "hash": " ",
+    "spine": "3.8.33"
+  },
+  "bones": [
+    {
+      "name": "peng dh"
+    },
+    {
+      "name": "bone",
+      "parent": "peng dh",
+      "x": -0.11,
+      "y": -0.01
+    },
+    {
+      "name": "bone2",
+      "parent": "bone",
+      "x": 1.58,
+      "y": -4.36
+    },
+    {
+      "name": "peng hy",
+      "parent": "bone2",
+      "x": -5.54,
+      "y": 2.59
+    },
+    {
+      "name": "peng hy 2",
+      "parent": "bone2",
+      "x": 8.69,
+      "y": 1.4
+    },
+    {
+      "name": "peng",
+      "parent": "bone",
+      "x": -1.59,
+      "y": -13.63
+    },
+    {
+      "name": "hh",
+      "parent": "bone",
+      "x": 15.01,
+      "y": 24.33
+    },
+    {
+      "name": "jj",
+      "parent": "bone",
+      "x": -53.77,
+      "y": -1.77
+    }
+  ],
+  "slots": [
+    {
+      "name": "peng hy 2",
+      "bone": "peng hy 2",
+      "attachment": "peng hy2"
+    },
+    {
+      "name": "peng hy",
+      "bone": "peng hy",
+      "attachment": "peng hy"
+    },
+    {
+      "name": "peng",
+      "bone": "peng",
+      "attachment": "peng"
+    },
+    {
+      "name": "jj",
+      "bone": "jj",
+      "attachment": "jj"
+    },
+    {
+      "name": "hh",
+      "bone": "hh",
+      "attachment": "hh"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "hh": {
+          "hh": {
+            "x": -0.06,
+            "y": -2,
+            "scaleX": 0.685,
+            "scaleY": 0.685,
+            "width": 128,
+            "height": 127
+          }
+        },
+        "jj": {
+          "jj": {
+            "x": -1.08,
+            "scaleX": 0.484,
+            "scaleY": 0.484,
+            "width": 128,
+            "height": 127
+          }
+        },
+        "peng": {
+          "peng": {
+            "x": -2.64,
+            "y": 20.55,
+            "scaleX": 0.757,
+            "scaleY": 0.757,
+            "width": 180,
+            "height": 152
+          }
+        },
+        "peng hy": {
+          "peng hy": {
+            "x": -48.67,
+            "y": -0.74,
+            "scaleX": 0.49,
+            "scaleY": 0.49,
+            "width": 278,
+            "height": 354
+          }
+        },
+        "peng hy 2": {
+          "peng hy2": {
+            "x": 42.99,
+            "y": -0.97,
+            "scaleX": 0.495,
+            "scaleY": 0.495,
+            "width": 278,
+            "height": 354
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "animation": {
+      "slots": {
+        "hh": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "jj": {
+          "color": [
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "peng": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "peng hy": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "peng hy 2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "peng": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.453,
+              "y": 0.453
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5,
+              "x": 0.829,
+              "y": 0.829,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9667,
+              "x": 0.829,
+              "y": 0.829
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "jj": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "angle": 0
+            },
+            {
+              "time": 0.7667,
+              "angle": 73.68
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7667,
+              "x": 0,
+              "y": 50.83
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "hh": {
+          "rotate": [
+            {
+              "time": 0.3,
+              "angle": 0
+            },
+            {
+              "time": 1,
+              "angle": 73.68
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 42.36
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "peng hy 2": {
+          "rotate": [
+            {
+              "time": 0.2333,
+              "angle": 0
+            },
+            {
+              "time": 0.2667,
+              "angle": -20
+            },
+            {
+              "time": 0.3,
+              "angle": -50
+            },
+            {
+              "time": 0.3333,
+              "angle": -90
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.2333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2667,
+              "x": 2.72,
+              "y": 4.35
+            },
+            {
+              "time": 0.3,
+              "x": 5.43,
+              "y": -6.52
+            },
+            {
+              "time": 0.3333,
+              "x": 9.78,
+              "y": -26.09
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.207,
+              "y": 0.207
+            },
+            {
+              "time": 0.2333,
+              "x": 0.8,
+              "y": 1
+            },
+            {
+              "time": 0.2667,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.3,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.3333,
+              "x": 0.4,
+              "y": 0.52
+            }
+          ]
+        },
+        "peng hy": {
+          "rotate": [
+            {
+              "time": 0.2333,
+              "angle": 0
+            },
+            {
+              "time": 0.2667,
+              "angle": 20
+            },
+            {
+              "time": 0.3,
+              "angle": 50
+            },
+            {
+              "time": 0.3333,
+              "angle": 90
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.2333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2667,
+              "x": -3.26,
+              "y": 5.68
+            },
+            {
+              "time": 0.3,
+              "x": -6.52,
+              "y": -3.86
+            },
+            {
+              "time": 0.3333,
+              "x": -16.31,
+              "y": -25.6
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.207,
+              "y": 0.207
+            },
+            {
+              "time": 0.2333,
+              "x": 0.8,
+              "y": 1
+            },
+            {
+              "time": 0.2667,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.3,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.3333,
+              "x": 0.398,
+              "y": 0.522
+            }
+          ]
+        }
+      }
+    }
+  }
+}

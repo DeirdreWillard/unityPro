@@ -1,0 +1,76 @@
+﻿
+qpaizd.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paimg
+  rotate: false
+  xy: 2, 760
+  size: 333, 192
+  orig: 333, 192
+  offset: 0, 0
+  index: -1
+paog1
+  rotate: false
+  xy: 690, 711
+  size: 317, 241
+  orig: 317, 241
+  offset: 0, 0
+  index: -1
+paog2
+  rotate: false
+  xy: 2, 517
+  size: 285, 241
+  orig: 285, 241
+  offset: 0, 0
+  index: -1
+paog3
+  rotate: false
+  xy: 289, 492
+  size: 353, 240
+  orig: 353, 240
+  offset: 0, 0
+  index: -1
+paog4
+  rotate: false
+  xy: 2, 249
+  size: 353, 241
+  orig: 353, 241
+  offset: 0, 0
+  index: -1
+paog5
+  rotate: false
+  xy: 644, 469
+  size: 353, 240
+  orig: 353, 240
+  offset: 0, 0
+  index: -1
+paog6
+  rotate: false
+  xy: 337, 734
+  size: 351, 218
+  orig: 351, 218
+  offset: 0, 0
+  index: -1
+paog7
+  rotate: true
+  xy: 709, 116
+  size: 351, 242
+  orig: 351, 242
+  offset: 0, 0
+  index: -1
+paog8
+  rotate: false
+  xy: 357, 226
+  size: 350, 241
+  orig: 350, 241
+  offset: 0, 0
+  index: -1
+paog9
+  rotate: false
+  xy: 2, 2
+  size: 352, 245
+  orig: 352, 245
+  offset: 0, 0
+  index: -1

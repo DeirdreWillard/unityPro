@@ -1,0 +1,125 @@
+﻿
+lianduishunzi.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dui
+  rotate: false
+  xy: 409, 2
+  size: 100, 79
+  orig: 100, 79
+  offset: 0, 0
+  index: -1
+dui1
+  rotate: false
+  xy: 258, 2
+  size: 149, 79
+  orig: 149, 79
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 511, 17
+  size: 94, 78
+  orig: 94, 78
+  offset: 0, 0
+  index: -1
+lian1
+  rotate: false
+  xy: 732, 87
+  size: 144, 78
+  orig: 144, 78
+  offset: 0, 0
+  index: -1
+pdk_ingame_3dai1or2_lightA
+  rotate: false
+  xy: 2, 34
+  size: 254, 15
+  orig: 254, 15
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_light
+  rotate: false
+  xy: 878, 38
+  size: 119, 127
+  orig: 119, 127
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_lightB
+  rotate: false
+  xy: 2, 51
+  size: 254, 194
+  orig: 254, 194
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_lightC
+  rotate: false
+  xy: 258, 83
+  size: 227, 162
+  orig: 227, 162
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_tuanA
+  rotate: false
+  xy: 951, 190
+  size: 65, 55
+  orig: 65, 55
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_tuanB
+  rotate: false
+  xy: 730, 28
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_tuanC
+  rotate: false
+  xy: 607, 29
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+pdk_ingame_liandui_tuanD
+  rotate: false
+  xy: 666, 41
+  size: 62, 54
+  orig: 62, 54
+  offset: 0, 0
+  index: -1
+pdk_sanshun_lightA
+  rotate: false
+  xy: 2, 15
+  size: 115, 17
+  orig: 115, 17
+  offset: 0, 0
+  index: -1
+pdk_shunzi_lightA
+  rotate: false
+  xy: 790, 61
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+pdk_shunzi_lightB
+  rotate: false
+  xy: 487, 177
+  size: 267, 68
+  orig: 267, 68
+  offset: 0, 0
+  index: -1
+shunzi
+  rotate: false
+  xy: 756, 167
+  size: 193, 78
+  orig: 193, 78
+  offset: 0, 0
+  index: -1
+shunzi1
+  rotate: false
+  xy: 487, 97
+  size: 243, 78
+  orig: 243, 78
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+﻿
+FlyingDragon.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+font
+  rotate: true
+  xy: 1594, 1309
+  size: 225, 256
+  orig: 225, 256
+  offset: 0, 0
+  index: -1
+lightA
+  rotate: false
+  xy: 1852, 1384
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightB
+  rotate: true
+  xy: 504, 98
+  size: 400, 120
+  orig: 400, 120
+  offset: 0, 0
+  index: -1
+long
+  rotate: false
+  xy: 2, 1438
+  size: 586, 598
+  orig: 586, 598
+  offset: 0, 0
+  index: -1
+long1
+  rotate: true
+  xy: 626, 86
+  size: 150, 157
+  orig: 150, 157
+  offset: 0, 0
+  index: -1
+long10
+  rotate: true
+  xy: 1594, 1536
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long11
+  rotate: false
+  xy: 504, 1018
+  size: 350, 300
+  orig: 350, 300
+  offset: 0, 0
+  index: -1
+long12
+  rotate: false
+  xy: 504, 759
+  size: 350, 257
+  orig: 350, 257
+  offset: 0, 0
+  index: -1
+long13
+  rotate: false
+  xy: 504, 500
+  size: 320, 257
+  orig: 320, 257
+  offset: 0, 0
+  index: -1
+long14
+  rotate: false
+  xy: 856, 957
+  size: 300, 257
+  orig: 300, 257
+  offset: 0, 0
+  index: -1
+long15
+  rotate: false
+  xy: 1158, 1014
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+long16
+  rotate: true
+  xy: 626, 238
+  size: 260, 200
+  orig: 260, 200
+  offset: 0, 0
+  index: -1
+long17
+  rotate: false
+  xy: 826, 553
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+long18
+  rotate: true
+  xy: 856, 755
+  size: 200, 257
+  orig: 200, 257
+  offset: 0, 0
+  index: -1
+long2
+  rotate: false
+  xy: 2, 1079
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long3
+  rotate: false
+  xy: 590, 1679
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long4
+  rotate: false
+  xy: 2, 720
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long5
+  rotate: false
+  xy: 1092, 1679
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long6
+  rotate: false
+  xy: 2, 361
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long7
+  rotate: false
+  xy: 2, 2
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long8
+  rotate: false
+  xy: 590, 1320
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+long9
+  rotate: false
+  xy: 1092, 1320
+  size: 500, 357
+  orig: 500, 357
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 856, 1216
+  size: 480, 102
+  orig: 480, 102
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+﻿
+zhuanyunzhong.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fg1
+  rotate: false
+  xy: 2, 254
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg2
+  rotate: false
+  xy: 2, 52
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg3
+  rotate: false
+  xy: 204, 254
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg4
+  rotate: false
+  xy: 204, 52
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg5
+  rotate: false
+  xy: 406, 254
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg6
+  rotate: false
+  xy: 406, 52
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg7
+  rotate: false
+  xy: 608, 254
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg8
+  rotate: false
+  xy: 608, 52
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+font1
+  rotate: false
+  xy: 810, 311
+  size: 65, 25
+  orig: 65, 25
+  offset: 0, 0
+  index: -1
+font2
+  rotate: false
+  xy: 2, 2
+  size: 88, 48
+  orig: 88, 48
+  offset: 0, 0
+  index: -1
+quan_w
+  rotate: false
+  xy: 810, 338
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1

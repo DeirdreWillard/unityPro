@@ -1,0 +1,1 @@
+java -jar jenkins.war --httpListenAddress=0.0.0.0 --httpPort=8080

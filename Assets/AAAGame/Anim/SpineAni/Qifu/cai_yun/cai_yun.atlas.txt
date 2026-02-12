@@ -1,0 +1,139 @@
+﻿
+cai_yun.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fguang1
+  rotate: false
+  xy: 2, 295
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang10
+  rotate: false
+  xy: 246, 31
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang11
+  rotate: false
+  xy: 368, 163
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang12
+  rotate: false
+  xy: 490, 295
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang13
+  rotate: false
+  xy: 368, 31
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang14
+  rotate: false
+  xy: 490, 163
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang15
+  rotate: false
+  xy: 612, 295
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang16
+  rotate: false
+  xy: 490, 31
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang2
+  rotate: false
+  xy: 2, 163
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang3
+  rotate: false
+  xy: 124, 295
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang4
+  rotate: false
+  xy: 2, 31
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang5
+  rotate: false
+  xy: 124, 163
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang6
+  rotate: false
+  xy: 246, 295
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang7
+  rotate: false
+  xy: 124, 31
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang8
+  rotate: false
+  xy: 246, 163
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+fguang9
+  rotate: false
+  xy: 368, 295
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+font_cai
+  rotate: false
+  xy: 612, 266
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+font_caiyun
+  rotate: false
+  xy: 2, 2
+  size: 50, 27
+  orig: 50, 27
+  offset: 0, 0
+  index: -1
+font_yun
+  rotate: false
+  xy: 734, 400
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1

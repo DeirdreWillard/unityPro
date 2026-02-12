@@ -1,0 +1,41 @@
+﻿
+peng.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hh
+  rotate: false
+  xy: 562, 383
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+jj
+  rotate: false
+  xy: 562, 383
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+peng
+  rotate: false
+  xy: 2, 2
+  size: 180, 152
+  orig: 180, 152
+  offset: 0, 0
+  index: -1
+peng hy
+  rotate: false
+  xy: 2, 156
+  size: 278, 354
+  orig: 278, 354
+  offset: 0, 0
+  index: -1
+peng hy2
+  rotate: false
+  xy: 282, 156
+  size: 278, 354
+  orig: 278, 354
+  offset: 0, 0
+  index: -1

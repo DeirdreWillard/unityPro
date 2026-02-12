@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ty_ui_saoguang01
+  m_Shader: {fileID: 4800000, guid: fb7fb6a498959f54eb7899e91ae5030d, type: 3}
+  m_ShaderKeywords: _TEX1_SUV_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 4, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowlightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex1:
+        m_Texture: {fileID: 2800000, guid: 2184cd53ce6c50646b316397a66561d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1.76, y: 0}
+    - _Tex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _DistortAmount: 0
+    - _DistortTex_SUV: 0
+    - _Distort_SpeedX: 0
+    - _Distort_SpeedY: 0
+    - _FlowlightMask_SUV: 0
+    - _Intensity: 0.5
+    - _Tex1_Pow: 3
+    - _Tex1_SUV: 1
+    - _Tex1_SpeedX: -5
+    - _Tex1_SpeedY: 0
+    - _Tex2_Pow: 1
+    - _Tex2_SUV: 0
+    - _Tex2_SpeedX: 0
+    - _Tex2_SpeedY: 0
+    m_Colors:
+    - _TexColor: {r: 1, g: 0.7547742, b: 0.1273585, a: 1}

@@ -1,0 +1,41 @@
+﻿
+huanzhuang.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light 2
+  rotate: false
+  xy: 1, 1
+  size: 484, 481
+  orig: 484, 481
+  offset: 0, 0
+  index: -1
+huan
+  rotate: false
+  xy: 339, 484
+  size: 109, 112
+  orig: 109, 112
+  offset: 0, 0
+  index: -1
+zhuang
+  rotate: false
+  xy: 339, 598
+  size: 104, 113
+  orig: 104, 113
+  offset: 0, 0
+  index: -1
+yuan zhuang
+  rotate: false
+  xy: 1, 484
+  size: 206, 206
+  orig: 206, 206
+  offset: 0, 0
+  index: -1
+tt
+  rotate: false
+  xy: 209, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1

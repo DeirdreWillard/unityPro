@@ -1,0 +1,107 @@
+﻿#	UI界面表										
+#	Id		SortOrder	UIPrefab	PauseCoveredUI	UIGroup	EscapeClose	Preload	OpenAnimType	CloseAnimType	Path
+#	int		int	string	bool	string	bool	bool	string	string	string
+#		备注			被覆盖是否暂停	UI组	返回关闭界面	预加载	Custom,None,FadeIn,FadeOut,ScaleIn,ScaleOut,MoveIn,MoveOut	Custom,None,FadeIn,FadeOut,ScaleIn,ScaleOut,MoveIn,MoveOut	Home
+	1	没用	0	GameUIForm	True	UIForm	False	False	MoveIn	MoveOut	
+	2	没用	50	SettingDialog	True	Dialog	True	False	MoveIn	MoveOut	
+	3	没用	50	StarRateDialog	True	Dialog	True	False	MoveIn	MoveOut	
+	4	没用	50	TipsDialog	True	Dialog	True	False	MoveIn	MoveOut	Common
+	5	没用	50	CommonDialog	True	Dialog	True	False	MoveIn	MoveOut	Common
+	6	没用	999	ToastTips	True	Tips	False	False	None	None	Common
+	7	没用	999	Prompted	True	Tips	True	False	None	None	Common
+	8	没用	0	MenuUIForm	False	UIForm	True	False	None	None	
+	9	没用	20	ShopUIForm	False	UIForm	True	False	None	None	
+	10	登录界面	0	StartPanel	False	UIForm	True	False	None	None	
+	11	首页大厅	0	HomePanel	False	UIForm	True	True	None	None	Home
+	12	个人信息设置	10	EditorInfoPanel	False	UIForm	True	False	MoveIn	MoveOut	Home/info
+	13	大厅设置	10	SetPanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	14	战绩列表	10	GameRecord	False	UIForm	True	False	MoveIn	MoveOut	Record
+	15	单页战绩详情	29	GameRecordDetail	False	UIForm	True	False	MoveIn	MoveOut	Record
+	16	消息	30	MessagePanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	17	商城	30	ShopPanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	18	俱乐部	10	ClubDetailPanel	False	UIForm	True	True	MoveIn	MoveOut	Club
+	19	俱乐部	10	CreateClub	False	UIForm	True	False	MoveIn	MoveOut	Club
+	20	俱乐部	10	CreateAlliances	False	UIForm	True	False	MoveIn	MoveOut	Club
+	21	俱乐部	10	JoinClub	False	UIForm	True	False	MoveIn	MoveOut	Club
+	22	俱乐部	19	JoinAlliance	False	UIForm	True	False	MoveIn	MoveOut	Club
+	23	俱乐部	11	ClubDetailPanelContent	False	UIForm	True	False	MoveIn	MoveOut	Club
+	24	俱乐部	12	ClubChatPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	25	俱乐部	12	ResetClubPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	26	俱乐部	12	ClubUserManagePanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	27	俱乐部财产	12	ClubAssetsPanel	False	UIForm	True	True	MoveIn	MoveOut	Club
+	28	俱乐部牌局回顾	12	ClubGameRecord	False	UIForm	True	False	MoveIn	MoveOut	Record
+	29	俱乐部奖池	12	ClubJackpotPanel	False	UIForm	True	True	MoveIn	MoveOut	Club
+	30	俱乐部联盟币操作	19	ClubAllianceCoinOpPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	31	明细	19	XXXDetailsPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	32	申请联盟币	12	ClubPlayerCoinOpPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	33	创建房间	14	CreateRoom	False	UIForm	True	True	MoveIn	MoveOut	Home
+	34	牛牛游戏桌子	15	NNGamePanel	False	UIForm	True	True	None	None	GameUI
+	35	炸金花游戏桌子	15	ZJH_GamePanel	False	UIForm	True	True	None	None	GameUI
+	36	用户个人信息详情	20	playerInforPanel	False	UIForm	True	False	FadeIn	FadeOut	GameUI
+	37	聊天	20	ChatPanel	False	UIForm	True	False	None	None	Chat
+	38	密码设置弹窗	30	PasswordDialog	False	Dialog	True	False	FadeIn	FadeOut	Home/info
+	39	安全密码	40	SecurityCodeDialog	False	Dialog	True	False	FadeIn	FadeOut	Home/info
+	40	忘记密码	35	ForgetPasswordDialog	False	Dialog	True	False	FadeIn	FadeOut	Home/info
+	41	带入弹窗	50	BringDialog	False	Dialog	True	False	MoveIn	MoveOut	Common
+	42	联盟主页	10	AlliancesDetailPanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	43	联盟俱乐部管理	11	AllianceClubManagePanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	44	联盟币操作	11	AllianceCoinManagePanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	45	联盟邀请俱乐部	11	AllianceInvitePanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	46	联盟商店	19	AllianceShopPanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	47	联盟币明细(废弃)	12	AllianceCoinDetailsPanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	48	联盟币修改	13	AllianceCoinOpPanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	49	联盟信息修改	11	AllianceResetPanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	50	联盟财产	11	AllianceAssetsPanel	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	51	公用确认弹窗	50	ConfirmationDialog	True	Dialog	True	False	FadeIn	FadeOut	Common
+	52	反馈输入框	30	FeedbackDialog	False	UIForm	True	False	MoveIn	MoveOut	Home
+	53	客服显示框	30	CustomSupportDialog	False	UIForm	True	False	MoveIn	MoveOut	Home
+	54	俱乐部成员资产	19	ClubCoinOpPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	55	钱包界面	13	WalletPanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	56	注册	12	RegisterDialog	False	UIForm	True	False	FadeIn	FadeOut	Home/info
+	57	登录设置个人信息	19	SetSecurityDialog	False	UIForm	False	False	FadeIn	FadeOut	Home/info
+	58	代入提示	99	BringTips	False	UIForm	False	False	FadeIn	FadeOut	Common
+	59	NN回放	30	NNRecordPanel	False	UIForm	True	False	FadeIn	FadeOut	Record
+	60	游戏奖池	20	GameJackpotPanel	False	UIForm	True	False	FadeIn	FadeOut	GameUI
+	61	我的牌谱	14	MyPaipu	False	UIForm	True	False	MoveIn	MoveOut	Home
+	62	德州游戏桌子	15	DZGamePanel	False	UIForm	True	True	None	None	GameUI
+	63	等待界面	9999	LoadingDialog	True	Dialog	False	False	FadeIn	FadeOut	Common
+	64	DZ回放	30	DZRecordPanel	False	UIForm	True	False	FadeIn	FadeOut	Record
+	65	金花回放	30	ZJHRecordPanel	False	UIForm	True	False	FadeIn	FadeOut	Record
+	66	超级联盟主页	10	SuperAlliancesDetailPanel	False	UIForm	True	True	MoveIn	MoveOut	Alliance
+	67	加入超级联盟	19	JoinSuperAlliance	False	UIForm	True	False	MoveIn	MoveOut	Alliance
+	68	黑名单管理	19	GameBlackPlayerPanel	False	UIForm	True	False	MoveIn	MoveOut	GameUI
+	69	游戏公告	18	HomeNotification	False	UIForm	True	False	FadeIn	FadeOut	Common
+	70	比鸡游戏桌子	15	BJ_GamePanel	False	UIForm	True	True	None	None	GameUI
+	71	游戏WPK	20	GameWPKPanel	False	UIForm	True	False	FadeIn	FadeOut	GameUI
+	72	选择头像	20	UpdateHeadPanel	False	UIForm	True	False	MoveIn	MoveOut	Home/info
+	73	比鸡回放	30	BJRecordPanel	False	UIForm	True	False	FadeIn	FadeOut	Record
+	74	安全验证	40	ArithmeticCaptchaDialog	False	Dialog	True	False	FadeIn	FadeOut	Home/info
+	75	比赛详情	20	MatchContentPanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	76	底注结构表	50	MatchAddCoinPanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	77	比赛详情	29	MatchContentInGamePanel	False	UIForm	True	False	MoveIn	MoveOut	Home
+	78	战队管理	12	ClubTeamManagePanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	79	战队成员管理	13	TeamUserManagePanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	80	添加战队成员	14	SetPlayerTeamPanel	False	UIForm	True	False	MoveIn	MoveOut	Club
+	81	麻将首页大厅	0	MJHomePanel	False	UIForm	True	True	None	None	MaJiang
+	82	麻将游戏桌子	10	MJGamePanel	False	UIForm	True	True	None	None	MaJiang/Game
+	83	创建麻将房间	13	CreatMJRoom	False	UIForm	True	True	None	None	MaJiang
+	84	加入亲友圈	99	JoinFriendCircle	False	UIForm	True	False	ScaleIn	ScaleOut	MaJiang
+	85	麻将桌子	15	MJHomeTable	False	UIForm	True	False	None	None	MaJiang
+	86	创建麻将房间弹窗	99	CreatMjPopup	False	UIForm	True	False	ScaleIn	ScaleOut	MaJiang
+	87	麻将战绩	15	MJGameRecord	False	UIForm	True	False	MoveInUp	None	MaJiang
+	88	麻将商城	89	MJShopPanel	False	UIForm	True	False	MoveInUp	None	MaJiang
+	89	麻将客服中心	15	MJCustomerService	False	UIForm	True	False	ScaleIn	ScaleOut	MaJiang
+	90	更多亲友圈	10	MoreQyq	False	UIForm	True	False	None	None	MaJiang
+	91	麻将俱乐部战绩	15	MJClubRecord	False	UIForm	True	False	None	None	MaJiang
+	92	麻将通用弹窗	99	MJConfirmationDialog	False	UIForm	True	False	ScaleIn	ScaleOut	MaJiang
+	93	麻将混排	15	MixedArrangement	False	UIForm	True	False	MoveInUp	None	MaJiang
+	94	麻将混排楼层设置	90	MJHallSet	False	UIForm	True	False	ScaleIn	ScaleOut	MaJiang
+	95	麻将个性设置	16	PersonalitySet	False	UIForm	True	False	MoveInUp	None	MaJiang
+	96	联盟币申请弹窗	15	GetUnion	False	UIForm	True	False	ScaleIn	ScaleOut	MaJiang
+	97	麻将回放界面	16	MJPlayBack	False	UIForm	True	False	None	None	MaJiang
+	98	跑的快游戏界面	16	PDKGamePanel	False	UIForm	True	True	None	None	PDK
+	99	麻将总结算	20	MJGameSettle	False	UIForm	True	False	None	None	Record
+	100	解散房间	29	MJDismissRoom	False	UIForm	False	False	ScaleIn	ScaleOut	MaJiang
+	101	跑的快回放	20	PDKPlayBack	False	UIForm	True	False	None	None	PDK
+	102	祈福	30	Blessing	False	UIForm	True	False	FadeIn	FadeOut	Activities/Qifu
+	103	获得奖励	99	RewardPanel	False	Dialog	True	False	None	None	Common

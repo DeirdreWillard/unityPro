@@ -1,0 +1,41 @@
+﻿
+gang.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+peng hy2
+  rotate: false
+  xy: 281, 1
+  size: 278, 354
+  orig: 278, 354
+  offset: 0, 0
+  index: -1
+peng hy
+  rotate: false
+  xy: 1, 1
+  size: 278, 354
+  orig: 278, 354
+  offset: 0, 0
+  index: -1
+xiao
+  rotate: false
+  xy: 561, 1
+  size: 161, 175
+  orig: 161, 175
+  offset: 0, 0
+  index: -1
+jj
+  rotate: false
+  xy: 724, 1
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+hh
+  rotate: false
+  xy: 854, 1
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,23 @@
+﻿<Solution>
+  <Project Path="Hotfix.csproj" />
+  <Project Path="UnityGameFramework.Runtime.csproj" />
+  <Project Path="GameFramework.csproj" />
+  <Project Path="Builtin.Runtime.csproj" />
+  <Project Path="UniTask.Linq.csproj" />
+  <Project Path="UnityGameFramework.Editor.csproj" />
+  <Project Path="DOTween.Extension.csproj" />
+  <Project Path="UniTask.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="spine-unity.csproj" />
+  <Project Path="spine-unity-editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="ZString.csproj" />
+  <Project Path="ImageCropper.csproj" />
+  <Project Path="NativeGallery.Editor.csproj" />
+  <Project Path="UniTask.Addressables.csproj" />
+  <Project Path="NativeGallery.csproj" />
+  <Project Path="UniTask.TextMeshPro.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="UniTask.DOTween.csproj" />
+  <Project Path="UniTask.Editor.csproj" />
+</Solution>

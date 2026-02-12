@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ba56dab4ba25f4d821b71761946b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CompressImgToolBackupDir: CompressImageTool\ImgBackupDir
+  CompressImgToolCoverRaw: 1
+  CompressImgToolOutputDir: CompressImageTool\ImgCompressedDir
+  CompressImgToolKeys:
+  - xxxx
+  CompressImgToolItemList:
+  - {fileID: 102900000, guid: 35134e394ede1344a98da1852815ee12, type: 3}
+  CompressImgToolOffline: 1
+  CompressImgToolFastLv: 1
+  CompressImgToolQualityLv: 50.774162
+  CompressImgToolQualityMinLv: 0
+  CompressImgMode: 2
+  FontCroppingCharSetsOutput: Tools\FontMinify
+  FontCroppingCharSetsFile: Tools\FontMinify\CharacterSetsBase.txt
+  ChatGPTKey: 
+  ChatGPTRandomness: 0
+  ChatGPTTimeout: 60
+  LanguagesSupport: 08000000090000000e0000001b0000001c000000
+  BaiduTransAppId: 
+  BaiduTransSecretKey: 
+  BaiduTransMaxLength: 2000
+  CreateAtlasIncludeChildrenFolder: 1
+  CreateAtlasSpriteSizeLimit: 512
+  CreateAtlasGenerateVariant: 0
+  CreateAtlasVariantScale: 0.5
+  CreateAtlasOverrideIncludeInBuild: 0
+  CreateAtlasOverrideAllowRotation: 1
+  CreateAtlasOverrideTightPacking: 1
+  CreateAtlasOverrideAlphaDilation: 0
+  CreateAtlasOverridePadding: 0
+  CreateAtlasOverrideReadWrite: 0
+  CreateAtlasOverrideMipMaps: 0
+  CreateAtlasOverrideSRGB: 0
+  CreateAtlasOverrideFilterMode: 1
+  CreateAtlasOverrideMaxTexSize: 0
+  CreateAtlasOverrideTexFormat: 0
+  CreateAtlasOverrideCompressQuality: 1
+  CreateAtlasIncludeInBuild: 1
+  CreateAtlasAllowRotation: 0
+  CreateAtlasTightPacking: 0
+  CreateAtlasAlphaDilation: 0
+  CreateAtlasPadding: 4
+  CreateAtlasReadWrite: 0
+  CreateAtlasMipMaps: 0
+  CreateAtlasSRGB: 1
+  CreateAtlasFilterMode: 1
+  CreateAtlasMaxTexSize: 2048
+  CreateAtlasTexFormat: 4
+  CreateAtlasCompressQuality: 50

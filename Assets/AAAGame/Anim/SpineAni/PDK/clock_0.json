@@ -1,0 +1,105 @@
+{
+	"skeleton": {
+		"hash": "",
+		"spine": "3.8.33",
+		"width": 82,
+		"height": 96,
+		"images": "",
+		"audio": "D:/UI/3.纸牌/闹钟动画需求/images"
+	},
+	"bones": [
+		{
+			"name": "root"
+		},
+		{
+			"name": "clock2",
+			"parent": "root",
+			"rotation": 90,
+			"y": -11.5
+		},
+		{
+			"name": "1",
+			"parent": "root",
+			"y": -11.5
+		},
+		{
+			"name": "clock_q",
+			"parent": "root",
+			"y": -11.5
+		}
+	],
+	"slots": [
+		{
+			"name": "clock2",
+			"bone": "clock2",
+			"attachment": "clock"
+		},
+		{
+			"name": "clock_q",
+			"bone": "clock_q",
+			"attachment": "clock_q"
+		},
+		{
+			"name": "1",
+			"bone": "1",
+			"attachment": "0"
+		}
+	],
+	"skins": [
+		{
+			"name": "default",
+			"attachments": {
+				"1": {
+					"0": {
+						"width": 20,
+						"height": 27
+					}
+				},
+				"clock2": {
+					"clock": {
+						"x": 11.5,
+						"rotation": -90,
+						"width": 82,
+						"height": 96
+					}
+				},
+				"clock_q": {
+					"clock_q": {
+						"width": 53,
+						"height": 53
+					}
+				}
+			}
+		}
+	],
+	"animations": {
+		"animation": {
+			"bones": {
+				"clock2": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": 0
+						},
+						{
+							"time": 0.0667,
+							"angle": 3
+						},
+						{
+							"time": 0.1333,
+							"angle": 0
+						},
+						{
+							"time": 0.2,
+							"angle": -3
+						},
+						{
+							"time": 0.2667,
+							"angle": 0
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,97 @@
+﻿
+zajinbi.png
+size: 368,368
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 309, 320
+  size: 43, 43
+  orig: 44, 45
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 309, 231
+  size: 43, 42
+  orig: 44, 45
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 47, 3
+  size: 43, 31
+  orig: 44, 45
+  offset: 1, 6
+  index: -1
+4
+  rotate: true
+  xy: 150, 142
+  size: 44, 21
+  orig: 44, 45
+  offset: 0, 12
+  index: -1
+5
+  rotate: false
+  xy: 2, 2
+  size: 43, 32
+  orig: 44, 45
+  offset: 1, 7
+  index: -1
+6
+  rotate: false
+  xy: 309, 275
+  size: 43, 43
+  orig: 44, 45
+  offset: 1, 1
+  index: -1
+eff_bling
+  rotate: false
+  xy: 302, 188
+  size: 39, 39
+  orig: 42, 42
+  offset: 1, 1
+  index: -1
+eff_pubLight
+  rotate: false
+  xy: 2, 188
+  size: 175, 175
+  orig: 175, 175
+  offset: 0, 0
+  index: -1
+shanguang/ggy_sg_1
+  rotate: true
+  xy: 266, 5
+  size: 101, 87
+  orig: 150, 150
+  offset: 26, 35
+  index: -1
+shanguang/ggy_sg_3
+  rotate: false
+  xy: 150, 14
+  size: 114, 92
+  orig: 150, 150
+  offset: 26, 28
+  index: -1
+shanguang/ggy_sg_5
+  rotate: true
+  xy: 179, 108
+  size: 119, 121
+  orig: 150, 150
+  offset: 21, 10
+  index: -1
+shanguang/ggy_sg_7
+  rotate: false
+  xy: 179, 229
+  size: 128, 134
+  orig: 150, 150
+  offset: 12, 8
+  index: -1
+shanguang/ggy_sg_9
+  rotate: false
+  xy: 2, 36
+  size: 146, 150
+  orig: 150, 150
+  offset: 3, 0
+  index: -1

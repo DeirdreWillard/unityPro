@@ -1,0 +1,21 @@
+{
+    "scanDirectories": [
+        "Assets/AAAGame/Sprites/BJ",
+        "Assets/AAAGame/Sprites/DZ",
+        "Assets/AAAGame/Sprites/ZJH",
+        "Assets/AAAGame/Sprites/NN"
+    ],
+    "excludeDirectories": [],
+    "excludeExtensions": [
+        ".cs",
+        ".dll",
+        ".meta",
+        ".asmdef",
+        ".spriteatlasv2"
+    ],
+    "moveToUnusedFolder": true,
+    "generateReport": true,
+    "checkScenes": true,
+    "checkPrefabs": true,
+    "checkScriptableObjects": true
+}

@@ -1,0 +1,48 @@
+﻿
+chouqian.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+font_qq
+  rotate: false
+  xy: 51, 39
+  size: 81, 23
+  orig: 81, 23
+  offset: 0, 0
+  index: -1
+gx
+  rotate: false
+  xy: 210, 49
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+qian_h
+  rotate: true
+  xy: 51, 7
+  size: 30, 74
+  orig: 30, 74
+  offset: 0, 0
+  index: -1
+qian_q
+  rotate: true
+  xy: 134, 32
+  size: 30, 74
+  orig: 30, 74
+  offset: 0, 0
+  index: -1
+qianta
+  rotate: false
+  xy: 2, 3
+  size: 47, 59
+  orig: 47, 59
+  offset: 0, 0
+  index: -1
+qiantb
+  rotate: false
+  xy: 51, 2
+  size: 44, 3
+  orig: 44, 3
+  offset: 0, 0
+  index: -1

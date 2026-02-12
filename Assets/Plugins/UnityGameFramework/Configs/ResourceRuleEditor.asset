@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b93107d7bc31740838a156d99e161c, type: 3}
+  m_Name: ResourceRuleEditor
+  m_EditorClassIdentifier: 
+  rules:
+  - valid: 1
+    name: AniEff
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Anim
+    loadType: 2
+    packed: 0
+    filterType: 3
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Audio
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Audio
+    loadType: 2
+    packed: 0
+    filterType: 3
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Config
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Config
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: DataTable
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/DataTable
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Font
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Font
+    loadType: 2
+    packed: 0
+    filterType: 3
+    searchPatterns: '*.*'
+  - valid: 1
+    name: HotfixDlls
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/HotfixDlls
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Language
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Language
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Materials
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Materials
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Prefabs
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Prefabs
+    loadType: 2
+    packed: 0
+    filterType: 3
+    searchPatterns: '*.*'
+  - valid: 1
+    name: ScriptableAssets
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/ScriptableAssets
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Scene
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Scene
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.unity'
+  - valid: 1
+    name: ScriptsBuiltin
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/ScriptsBuiltin
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: SharedMaterials
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/SharedMaterials
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Common_sprites
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Sprites
+    loadType: 2
+    packed: 0
+    filterType: 3
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chengyuanguanli
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u6210\u5458\u7BA1\u7406"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chuangjianfangjian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u521B\u5EFA\u623F\u95F4\u754C\u9762\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chuangjianjulebu
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u521B\u5EFA\u4FF1\u4E50\u90E8\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chnagjianlianmeng
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u521B\u5EFA\u8054\u76DF\u754C\u9762"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chuangjian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u521B\u5EFA\u8054\u76DF\u4FF1\u4E50\u90E8\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chuangjianpaiju
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u521B\u5EFA\u724C\u5C40\u754C\u9762"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: cuopai
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u6413\u724C"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: denglu
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u767B\u5F55\u754C\u9762\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: fangjianliebiao
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u623F\u95F4\u5217\u8868\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: gerenziyuan
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4E2A\u4EBA\u4E3B\u9875\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: gernzhuyeminazijiemian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4E2A\u4EBA\u4E3B\u9875\u5B50\u754C\u9762\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: chuangjianfangjian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4FF1\u4E50\u90E8\u521B\u5EFA\u623F\u95F4\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: julebu
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4FF1\u4E50\u90E8\u754C\u9762"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: julebuju
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4FF1\u4E50\u90E8\u5C40"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: julebuxiangxi
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4FF1\u4E50\u90E8\u8BE6\u60C5\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: lioanmengbimingxi
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u8054\u76DF\u5E01\u660E\u7EC6"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: lianmengguanli
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u8054\u76DF\u7BA1\u7406"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: paijuhuigu
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u724C\u5C40\u56DE\u987E"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: saishijiemian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u8D5B\u4E8B\u754C\u9762\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: shangchengziyuan
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u5546\u57CE\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: shezhi
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u8BBE\u7F6E"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: shishizhanbao
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u5B9E\u65F6\u6218\u62A5"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: wanfazhuye
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u73A9\u6CD5\u4E3B\u9875\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: wodelianmengziyuan
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u6211\u7684\u8054\u76DF\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: xiaoxi
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u6D88\u606F-\u8D44\u91D1\u64CD\u4F5C\u754C\u9762\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: youxijiemian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u6E38\u620F\u754C\u9762\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: zhuyejiemian
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u4E3B\u9875\u754C\u9762"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: zhuzhicaichan
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u7EC4\u7EC7\u8D22\u4EA7\u8D44\u6E90"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: majiangdating
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: "Assets/AAAGame/Sprites/Img/\u9EBB\u5C06\u5927\u5385"
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Textures
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/AAAGame/Textures
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'

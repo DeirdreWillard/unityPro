@@ -1,0 +1,83 @@
+﻿
+ANIzhuanpan2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di01
+  rotate: false
+  xy: 2, 57
+  size: 509, 451
+  orig: 512, 512
+  offset: 3, 46
+  index: -1
+dian01
+  rotate: true
+  xy: 1111, 289
+  size: 219, 213
+  orig: 221, 215
+  offset: 1, 1
+  index: -1
+dian_002
+  rotate: true
+  xy: 2, 5
+  size: 50, 48
+  orig: 51, 48
+  offset: 0, 0
+  index: -1
+g-02
+  rotate: false
+  xy: 719, 116
+  size: 324, 90
+  orig: 324, 90
+  offset: 0, 0
+  index: -1
+jinbi01
+  rotate: true
+  xy: 719, 2
+  size: 112, 161
+  orig: 112, 161
+  offset: 0, 0
+  index: -1
+jinbi02
+  rotate: false
+  xy: 1111, 127
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+jinbi03
+  rotate: true
+  xy: 882, 45
+  size: 69, 160
+  orig: 69, 160
+  offset: 0, 0
+  index: -1
+quan01
+  rotate: false
+  xy: 513, 2
+  size: 204, 204
+  orig: 204, 204
+  offset: 0, 0
+  index: -1
+quan03
+  rotate: false
+  xy: 815, 213
+  size: 294, 295
+  orig: 296, 297
+  offset: 1, 1
+  index: -1
+quan05
+  rotate: false
+  xy: 513, 208
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+xingxing4
+  rotate: false
+  xy: 1044, 37
+  size: 74, 77
+  orig: 76, 79
+  offset: 1, 1
+  index: -1

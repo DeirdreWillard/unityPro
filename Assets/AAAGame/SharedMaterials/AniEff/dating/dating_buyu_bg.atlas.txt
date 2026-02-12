@@ -1,0 +1,90 @@
+
+dating_buyu_bg.png
+size: 2348,2004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 918
+  size: 2342, 1082
+  orig: 2342, 1082
+  offset: 0, 0
+  index: -1
+chuan
+  rotate: false
+  xy: 1023, 76
+  size: 196, 181
+  orig: 196, 181
+  offset: 0, 0
+  index: -1
+dengzi
+  rotate: true
+  xy: 1941, 390
+  size: 526, 394
+  orig: 1572, 1040
+  offset: 0, 54
+  index: -1
+niao
+  rotate: false
+  xy: 1941, 187
+  size: 156, 92
+  orig: 602, 199
+  offset: 1, 31
+  index: -1
+niao1
+  rotate: false
+  xy: 2109, 304
+  size: 147, 84
+  orig: 147, 84
+  offset: 0, 0
+  index: -1
+niao2
+  rotate: false
+  xy: 1941, 281
+  size: 166, 107
+  orig: 166, 107
+  offset: 0, 0
+  index: -1
+niao3
+  rotate: false
+  xy: 1023, 41
+  size: 157, 33
+  orig: 157, 33
+  offset: 0, 0
+  index: -1
+niao4
+  rotate: false
+  xy: 1221, 158
+  size: 105, 50
+  orig: 106, 50
+  offset: 1, 0
+  index: -1
+niao5
+  rotate: false
+  xy: 1221, 210
+  size: 222, 47
+  orig: 222, 47
+  offset: 0, 0
+  index: -1
+san
+  rotate: true
+  xy: 2, 2
+  size: 914, 1019
+  orig: 1605, 1051
+  offset: 0, 32
+  index: -1
+shu1
+  rotate: false
+  xy: 1023, 259
+  size: 550, 657
+  orig: 2342, 806
+  offset: 0, 0
+  index: -1
+shu2
+  rotate: true
+  xy: 1575, 129
+  size: 787, 364
+  orig: 787, 364
+  offset: 0, 0
+  index: -1

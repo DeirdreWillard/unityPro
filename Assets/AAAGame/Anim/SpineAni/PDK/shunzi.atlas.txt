@@ -1,0 +1,90 @@
+﻿
+shunzi.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+S/F-shunzi
+  rotate: false
+  xy: 0, 49
+  size: 265, 140
+  orig: 265, 140
+  offset: 0, 0
+  index: -1
+S/boat
+  rotate: false
+  xy: 0, 191
+  size: 484, 273
+  orig: 484, 273
+  offset: 0, 0
+  index: -1
+S/fan
+  rotate: true
+  xy: 486, 171
+  size: 293, 371
+  orig: 293, 371
+  offset: 0, 0
+  index: -1
+S/fan2
+  rotate: true
+  xy: 267, 20
+  size: 169, 208
+  orig: 169, 208
+  offset: 0, 0
+  index: -1
+S/foams/F0001
+  rotate: false
+  xy: 859, 417
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0003
+  rotate: false
+  xy: 0, 0
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0005
+  rotate: false
+  xy: 859, 368
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0007
+  rotate: false
+  xy: 859, 319
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0009
+  rotate: false
+  xy: 859, 270
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0011
+  rotate: false
+  xy: 859, 221
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0013
+  rotate: false
+  xy: 859, 172
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1
+S/foams/F0015
+  rotate: false
+  xy: 477, 122
+  size: 152, 47
+  orig: 152, 47
+  offset: 0, 0
+  index: -1

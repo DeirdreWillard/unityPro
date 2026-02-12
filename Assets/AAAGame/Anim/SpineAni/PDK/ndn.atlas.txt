@@ -1,0 +1,20 @@
+﻿
+ndn.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+F-3d2
+  rotate: false
+  xy: 2, 2
+  size: 287, 79
+  orig: 287, 79
+  offset: 0, 0
+  index: -1
+F-4d3
+  rotate: false
+  xy: 291, 2
+  size: 287, 79
+  orig: 287, 79
+  offset: 0, 0
+  index: -1

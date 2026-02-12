@@ -1,0 +1,83 @@
+﻿
+Boom.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B/Speak1
+  rotate: true
+  xy: 777, 140
+  size: 68, 61
+  orig: 68, 61
+  offset: 0, 0
+  index: -1
+B/Speak2
+  rotate: true
+  xy: 777, 70
+  size: 68, 61
+  orig: 68, 61
+  offset: 0, 0
+  index: -1
+B/behit_pojia_b_04
+  rotate: false
+  xy: 0, 210
+  size: 208, 295
+  orig: 208, 295
+  offset: 0, 0
+  index: -1
+B/behit_pojia_b_05
+  rotate: false
+  xy: 210, 210
+  size: 208, 295
+  orig: 208, 295
+  offset: 0, 0
+  index: -1
+B/behit_pojia_b_06
+  rotate: true
+  xy: 0, 0
+  size: 208, 295
+  orig: 208, 295
+  offset: 0, 0
+  index: -1
+B/behit_pojia_b_07
+  rotate: false
+  xy: 420, 210
+  size: 208, 295
+  orig: 208, 295
+  offset: 0, 0
+  index: -1
+B/behit_pojia_b_08
+  rotate: true
+  xy: 297, 0
+  size: 208, 295
+  orig: 208, 295
+  offset: 0, 0
+  index: -1
+B/behit_pojia_b_09
+  rotate: false
+  xy: 630, 210
+  size: 208, 295
+  orig: 208, 295
+  offset: 0, 0
+  index: -1
+B/boomBody
+  rotate: false
+  xy: 594, 31
+  size: 181, 177
+  orig: 181, 177
+  offset: 0, 0
+  index: -1
+B/line
+  rotate: false
+  xy: 840, 328
+  size: 181, 177
+  orig: 181, 177
+  offset: 0, 0
+  index: -1
+B/line2
+  rotate: false
+  xy: 840, 149
+  size: 181, 177
+  orig: 181, 177
+  offset: 0, 0
+  index: -1

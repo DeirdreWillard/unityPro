@@ -1,0 +1,48 @@
+﻿
+zhuochong.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light 2
+  rotate: false
+  xy: 1, 1
+  size: 484, 481
+  orig: 484, 481
+  offset: 0, 0
+  index: -1
+zhuo
+  rotate: false
+  xy: 1, 613
+  size: 125, 111
+  orig: 125, 111
+  offset: 0, 0
+  index: -1
+chong
+  rotate: false
+  xy: 1, 726
+  size: 125, 107
+  orig: 125, 107
+  offset: 0, 0
+  index: -1
+tt
+  rotate: false
+  xy: 1, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+hh
+  rotate: false
+  xy: 131, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+jj
+  rotate: false
+  xy: 261, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1

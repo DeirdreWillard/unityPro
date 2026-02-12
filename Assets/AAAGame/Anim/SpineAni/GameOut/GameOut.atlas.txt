@@ -1,0 +1,132 @@
+﻿
+GameOut.png
+size: 4022,806
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_0
+  rotate: false
+  xy: 2, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_1
+  rotate: false
+  xy: 404, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_2
+  rotate: false
+  xy: 806, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_3
+  rotate: false
+  xy: 1208, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_4
+  rotate: false
+  xy: 1610, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_5
+  rotate: false
+  xy: 2012, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_6
+  rotate: false
+  xy: 2414, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_7
+  rotate: false
+  xy: 2816, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_8
+  rotate: false
+  xy: 3218, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_9
+  rotate: false
+  xy: 3620, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_10
+  rotate: false
+  xy: 2, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_11
+  rotate: false
+  xy: 404, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_12
+  rotate: false
+  xy: 806, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_13
+  rotate: false
+  xy: 1208, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_14
+  rotate: false
+  xy: 1610, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_15
+  rotate: false
+  xy: 2012, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_16
+  rotate: false
+  xy: 2414, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+frame_17
+  rotate: false
+  xy: 2816, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1

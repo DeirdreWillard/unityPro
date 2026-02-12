@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hallmain_lang02
+  m_Shader: {fileID: 4800000, guid: 6daedbdfe5a664145a8ecf0079f71957, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _PARTICLE_CONTROLA_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTexScreenUV:
+        m_Texture: {fileID: 2800000, guid: e1da34cc1c431a345924d78dc3644d0d, type: 3}
+        m_Scale: {x: 1, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 9182d87c1f1aae140a43e5104f5be1fb, type: 3}
+        m_Scale: {x: 0.7, y: 1}
+        m_Offset: {x: 0.24, y: -0.1}
+    - _Tex1:
+        m_Texture: {fileID: 2800000, guid: 6f3ae9ec36506de48a408076319352a0, type: 3}
+        m_Scale: {x: 5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _Tex2:
+        m_Texture: {fileID: 2800000, guid: 6f3ae9ec36506de48a408076319352a0, type: 3}
+        m_Scale: {x: -4, y: 4.5}
+        m_Offset: {x: 4.11, y: 0}
+    m_Floats:
+    - _DistortAmount: 3.5
+    - _Distort_SpeedX: -1
+    - _Distort_SpeedY: 0.5
+    - _Intensity: 0.5
+    - _Tex1_Pow: 1.5
+    - _Tex1_SpeedX: 0.25
+    - _Tex1_SpeedY: 1.2
+    - _Tex2_Pow: 1
+    - _Tex2_SpeedX: -0.2
+    - _Tex2_SpeedY: 0.5
+    m_Colors:
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}

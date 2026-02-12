@@ -1,0 +1,264 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>构建热更资源 (SVN版本)</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ProjectRoot</name>
+          <description>项目工程根目录</description>
+          <defaultValue>F:/project/client/unityPro2</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ResourceOutputDir</name>
+          <description>构建资源输出目录</description>
+          <defaultValue>F:/project/client/unityPro2/AB</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Platform</name>
+          <description>类型：enum (BuildTarget枚举)
+说明：构建平台</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Android</string>
+              <string>iOS</string>
+              <string>StandaloneWindows</string>
+              <string>StandaloneWindows64</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>ForceRebuild</name>
+          <description>强制重新构建全部资源</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>AutoIncrementVersion</name>
+          <description>自动递增ResourceVersion（勾选后忽略下方的ResourceVersion参数）</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ResourceVersion</name>
+          <description>类型：int
+说明：热更资源版本号（如果勾选了AutoIncrementVersion则此参数无效）</description>
+          <defaultValue>1</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>UpdatePrefixUrl</name>
+          <description>热更资源服务器地址</description>
+          <defaultValue>http://192.168.31.12:80/resource</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ApplicableVersions</name>
+          <description>资源适用的App版本号, 多个版本号之间用&apos;|&apos;分割</description>
+          <defaultValue>1.1.0</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>ForceUpdate</name>
+          <description>是否强制更新App</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AppUpdateUrl</name>
+          <description>App更新地址</description>
+          <defaultValue>http://192.168.31.12:80/resource/App</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AppUpdateDescription</name>
+          <description>App更新说明(支持TextMeshProGUI富文本)</description>
+          <defaultValue>发现新版本! 请尽快前往更新!</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>EnableSvnUpdate</name>
+          <description>打包前是否执行SVN更新</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>EnableScpUpload</name>
+          <description>打包完成后是否通过SCP上传到热更服务器</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>SshServer</name>
+          <description>热更服务器地址</description>
+          <defaultValue>192.168.31.12</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>SshPort</name>
+          <description>SSH端口</description>
+          <defaultValue>22</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>SshUser</name>
+          <description>SSH用户名</description>
+          <defaultValue>root</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>SshPass</name>
+          <description>SSH密码</description>
+          <defaultValue>123456</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>SshRemoteDir</name>
+          <description>热更服务器远程目录</description>
+          <defaultValue>/data/www/resource/</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.BatchFile>
+      <command>@echo off
+REM ============ Step 1: SVN Update ============
+if "%EnableSvnUpdate%"=="true" (
+    echo [Step 1] Executing SVN Update...
+    call "%ProjectRoot%\Tools\Jenkins\SvnUpdate.bat" "%ProjectRoot%"
+    if errorlevel 1 (
+        echo [ERROR] SVN Update failed
+        exit /b 1
+    )
+) else (
+    echo [Step 1] Skipping SVN Update
+)
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.BatchFile>
+    <hudson.tasks.BatchFile>
+      <command>@echo off
+REM ============ Step 2: Handle ResourceVersion Auto-Increment ============
+setlocal enabledelayedexpansion
+
+set "ConfigFile=%ProjectRoot%\Tools\Jenkins\BuildResourceConfig.json"
+set "FinalResourceVersion=%ResourceVersion%"
+
+if "%AutoIncrementVersion%"=="true" (
+    echo [Step 2] Auto-incrementing ResourceVersion...
+    
+    if exist "%ConfigFile%" (
+        REM Read current version
+        for /f "usebackq delims=" %%i in (`powershell -Command "(Get-Content '%ConfigFile%' | ConvertFrom-Json).ResourceVersion"`) do set "CURRENT_VERSION=%%i"
+        if "!CURRENT_VERSION!"=="" set "CURRENT_VERSION=0"
+    ) else (
+        set "CURRENT_VERSION=0"
+    )
+    
+    set /a FinalResourceVersion=!CURRENT_VERSION!+1
+    echo Current Version: !CURRENT_VERSION! -^&gt; New Version: !FinalResourceVersion!
+) else (
+    echo [Step 2] Using specified ResourceVersion: %ResourceVersion%
+)
+
+REM Save final version to temp file
+echo !FinalResourceVersion!&gt;"%ProjectRoot%\Tools\Jenkins\FinalResourceVersion.txt"
+
+endlocal
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.BatchFile>
+    <hudson.tasks.BatchFile>
+      <command>@echo off
+REM ============ Step 3: Create Build Config ============
+setlocal enabledelayedexpansion
+
+REM Read final version
+set /p FinalResourceVersion=&lt;"%ProjectRoot%\Tools\Jenkins\FinalResourceVersion.txt"
+
+echo [Step 3] Creating build config file...
+echo ResourceVersion: %FinalResourceVersion%
+
+REM Use PowerShell to generate JSON to handle path escaping correctly
+powershell -Command "$d = $env:AppUpdateDescription -replace '\\n', \"`n\"; $config = @{ ResourceOutputDir = $env:ResourceOutputDir; Platform = $env:Platform; ForceRebuild = [System.Convert]::ToBoolean($env:ForceRebuild); ResourceVersion = [int]$env:FinalResourceVersion; UpdatePrefixUrl = $env:UpdatePrefixUrl; ApplicableVersions = $env:ApplicableVersions; ForceUpdate = [System.Convert]::ToBoolean($env:ForceUpdate); AppUpdateUrl = $env:AppUpdateUrl; AppUpdateDescription = $d }; $config | ConvertTo-Json -Compress | Set-Content -Path ('{0}\Tools\Jenkins\BuildResourceConfig.json' -f $env:ProjectRoot) -Encoding UTF8"
+
+echo Config file created: %ProjectRoot%\Tools\Jenkins\BuildResourceConfig.json
+type "%ProjectRoot%\Tools\Jenkins\BuildResourceConfig.json"
+
+endlocal
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.BatchFile>
+    <org.jenkinsci.plugins.unity3d.Unity3dBuilder plugin="unity3d-plugin@1.3">
+      <unity3dName>Unity2022</unity3dName>
+      <argLine>-quit -nographics -batchmode -projectPath &quot;${ProjectRoot}&quot; -executeMethod UGF.EditorTools.JenkinsBuilder.BuildResource -logFile &quot;${ProjectRoot}/Tools/Jenkins/UnityBuildLog.log&quot;</argLine>
+      <unstableReturnCodes></unstableReturnCodes>
+    </org.jenkinsci.plugins.unity3d.Unity3dBuilder>
+    <hudson.tasks.BatchFile>
+      <command>@echo off
+REM ============ Step 5: SCP Upload to Hotfix Server ============
+setlocal enabledelayedexpansion
+
+if "%EnableScpUpload%"=="true" (
+    echo [Step 5] Executing SCP Upload...
+    
+    REM Read build result
+    set "ResultFile=%ProjectRoot%\Tools\Jenkins\BuildResult.json"
+    if not exist "!ResultFile!" (
+        echo [ERROR] Build result file not found
+        exit /b 1
+    )
+    
+    REM Check if build was successful
+    for /f "usebackq delims=" %%i in (`powershell -Command "(Get-Content '!ResultFile!' | ConvertFrom-Json).Success"`) do set "BuildSuccess=%%i"
+    if "!BuildSuccess!"=="False" (
+        echo [ERROR] Build failed, skipping SCP upload
+        exit /b 1
+    )
+    
+    REM Get output path
+    for /f "usebackq delims=" %%i in (`powershell -Command "(Get-Content '!ResultFile!' | ConvertFrom-Json).OutputPath"`) do set "OutputPath=%%i"
+    
+    echo Upload Directory: !OutputPath!
+    echo Target Server: %SshUser%@%SshServer%:%SshPort%
+    echo Remote Directory: %SshRemoteDir%/%Platform%
+    
+    REM Use PowerShell script for upload
+    powershell -ExecutionPolicy Bypass -File "%ProjectRoot%\Tools\Jenkins\ScpUploadPowerShell.ps1" -LocalDir "!OutputPath!" -SshServer "%SshServer%" -SshPort "%SshPort%" -SshUser "%SshUser%" -SshPass "%SshPass%" -RemoteDir "%SshRemoteDir%/%Platform%"
+    
+    if errorlevel 1 (
+        echo [ERROR] SCP Upload failed
+        exit /b 1
+    )
+    
+    echo [SUCCESS] SCP Upload Complete
+) else (
+    echo [Step 5] Skipping SCP Upload
+)
+
+endlocal
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.BatchFile>
+    <hudson.tasks.BatchFile>
+      <command>@echo off
+REM ============ Step 6: Cleanup Temp Files ============
+echo [Step 6] Cleaning up temp files...
+
+if exist "%ProjectRoot%\Tools\Jenkins\FinalResourceVersion.txt" del "%ProjectRoot%\Tools\Jenkins\FinalResourceVersion.txt"
+
+echo [DONE] Build Process Finished
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

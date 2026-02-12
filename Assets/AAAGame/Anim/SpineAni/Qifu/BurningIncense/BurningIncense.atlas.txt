@@ -1,0 +1,272 @@
+﻿
+BurningIncense.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+censer
+  rotate: false
+  xy: 2, 711
+  size: 426, 289
+  orig: 426, 289
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 2, 377
+  size: 237, 332
+  orig: 237, 332
+  offset: 0, 0
+  index: -1
+font
+  rotate: false
+  xy: 430, 931
+  size: 489, 69
+  orig: 489, 69
+  offset: 0, 0
+  index: -1
+light1
+  rotate: false
+  xy: 298, 204
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light10
+  rotate: false
+  xy: 981, 718
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light11
+  rotate: false
+  xy: 1163, 718
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light12
+  rotate: false
+  xy: 1345, 718
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light13
+  rotate: false
+  xy: 1527, 718
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light14
+  rotate: false
+  xy: 1709, 718
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light15
+  rotate: false
+  xy: 981, 536
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light16
+  rotate: false
+  xy: 1163, 536
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light17
+  rotate: false
+  xy: 1345, 536
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light18
+  rotate: false
+  xy: 1527, 536
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light19
+  rotate: false
+  xy: 1709, 536
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 435, 627
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light20
+  rotate: false
+  xy: 847, 354
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light21
+  rotate: false
+  xy: 1029, 354
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light22
+  rotate: false
+  xy: 1211, 354
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light3
+  rotate: false
+  xy: 617, 627
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light4
+  rotate: false
+  xy: 483, 343
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light5
+  rotate: false
+  xy: 480, 161
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light6
+  rotate: false
+  xy: 298, 22
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light7
+  rotate: false
+  xy: 662, 161
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light8
+  rotate: false
+  xy: 665, 343
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+light9
+  rotate: false
+  xy: 799, 627
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+lightA
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightB
+  rotate: false
+  xy: 430, 809
+  size: 400, 120
+  orig: 400, 120
+  offset: 0, 0
+  index: -1
+shao
+  rotate: false
+  xy: 722, 104
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+smokeFrame1
+  rotate: true
+  xy: 921, 900
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame2
+  rotate: true
+  xy: 1163, 900
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame3
+  rotate: true
+  xy: 1405, 900
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame4
+  rotate: true
+  xy: 1647, 900
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame5
+  rotate: true
+  xy: 241, 386
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame6
+  rotate: false
+  xy: 196, 135
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame7
+  rotate: true
+  xy: 435, 525
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+smokeFrame8
+  rotate: true
+  xy: 480, 59
+  size: 100, 240
+  orig: 100, 240
+  offset: 0, 0
+  index: -1
+xiang1
+  rotate: false
+  xy: 2, 154
+  size: 192, 221
+  orig: 192, 221
+  offset: 0, 0
+  index: -1
+xiang2
+  rotate: false
+  xy: 241, 488
+  size: 192, 221
+  orig: 192, 221
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+﻿
+piaolaizi.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shandian 5
+  rotate: false
+  xy: 1, 667
+  size: 766, 668
+  orig: 769, 669
+  offset: 1, 0
+  index: -1
+shandian 4
+  rotate: false
+  xy: 742, 1337
+  size: 652, 551
+  orig: 652, 551
+  offset: 0, 0
+  index: -1
+shandian 3
+  rotate: false
+  xy: 793, 1
+  size: 780, 670
+  orig: 781, 671
+  offset: 0, 0
+  index: -1
+shandian 2
+  rotate: false
+  xy: 1, 1
+  size: 790, 664
+  orig: 793, 666
+  offset: 1, 1
+  index: -1
+shandian 1
+  rotate: false
+  xy: 1, 1337
+  size: 739, 641
+  orig: 740, 641
+  offset: 0, 0
+  index: -1
+shandian 6
+  rotate: false
+  xy: 769, 673
+  size: 562, 567
+  orig: 600, 601
+  offset: 18, 16
+  index: -1
+piao
+  rotate: false
+  xy: 742, 1890
+  size: 188, 156
+  orig: 188, 156
+  offset: 0, 0
+  index: -1

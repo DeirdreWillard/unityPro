@@ -1,0 +1,111 @@
+﻿
+Luopan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dguang
+  rotate: false
+  xy: 2, 404
+  size: 612, 612
+  orig: 612, 612
+  offset: 0, 0
+  index: -1
+font
+  rotate: true
+  xy: 895, 165
+  size: 494, 67
+  orig: 494, 67
+  offset: 0, 0
+  index: -1
+guax2
+  rotate: false
+  xy: 2, 11
+  size: 393, 391
+  orig: 393, 391
+  offset: 0, 0
+  index: -1
+huo1
+  rotate: false
+  xy: 519, 200
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo2
+  rotate: false
+  xy: 519, 148
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo3
+  rotate: false
+  xy: 571, 200
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo4
+  rotate: false
+  xy: 519, 96
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo5
+  rotate: false
+  xy: 571, 148
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo6
+  rotate: false
+  xy: 519, 44
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo7
+  rotate: false
+  xy: 571, 96
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+huo8
+  rotate: false
+  xy: 571, 44
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+lightA
+  rotate: false
+  xy: 519, 252
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightB
+  rotate: true
+  xy: 397, 2
+  size: 400, 120
+  orig: 400, 120
+  offset: 0, 0
+  index: -1
+luopan
+  rotate: false
+  xy: 616, 661
+  size: 356, 355
+  orig: 356, 355
+  offset: 0, 0
+  index: -1
+youling
+  rotate: true
+  xy: 616, 436
+  size: 223, 277
+  orig: 223, 277
+  offset: 0, 0
+  index: -1

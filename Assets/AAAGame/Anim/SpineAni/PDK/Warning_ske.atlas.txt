@@ -1,0 +1,62 @@
+﻿
+Warning_ske.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+warning_1
+  rotate: false
+  xy: 65, 1
+  size: 61, 55
+  orig: 62, 55
+  offset: 1, 0
+  index: -1
+warning_2
+  rotate: false
+  xy: 52, 115
+  size: 48, 55
+  orig: 52, 55
+  offset: 2, 0
+  index: -1
+warning_3
+  rotate: false
+  xy: 1, 58
+  size: 55, 55
+  orig: 60, 55
+  offset: 3, 0
+  index: -1
+warning_4
+  rotate: false
+  xy: 1, 115
+  size: 49, 55
+  orig: 54, 55
+  offset: 3, 0
+  index: -1
+warning_5
+  rotate: false
+  xy: 1, 1
+  size: 62, 55
+  orig: 64, 55
+  offset: 0, 0
+  index: -1
+warning_6
+  rotate: false
+  xy: 1, 172
+  size: 49, 55
+  orig: 54, 55
+  offset: 3, 0
+  index: -1
+warning_7
+  rotate: false
+  xy: 52, 172
+  size: 42, 55
+  orig: 46, 55
+  offset: 2, 0
+  index: -1
+warning_8
+  rotate: false
+  xy: 58, 58
+  size: 50, 55
+  orig: 54, 55
+  offset: 3, 0
+  index: -1

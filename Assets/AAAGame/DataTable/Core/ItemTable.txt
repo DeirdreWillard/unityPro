@@ -1,0 +1,7 @@
+﻿#	UI界面表			
+#	Id	Name	Des	Path
+#	int	string	string	string
+#	道具ID	道具名	描述	道具路径
+	1	欢乐豆		Common/ty/sc_dj_item_1
+	2	钻石		Common/ty/sc_dj_item_2
+	3	联盟币		Common/ty/sc_dj_item_3

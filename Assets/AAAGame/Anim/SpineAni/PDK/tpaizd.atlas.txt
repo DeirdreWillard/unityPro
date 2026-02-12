@@ -1,0 +1,97 @@
+﻿
+tpaizd.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rs_1
+  rotate: false
+  xy: 2, 557
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_10
+  rotate: true
+  xy: 355, 2
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_11
+  rotate: false
+  xy: 810, 557
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_12
+  rotate: false
+  xy: 810, 204
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_13
+  rotate: false
+  xy: 1012, 557
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_2
+  rotate: false
+  xy: 2, 204
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_3
+  rotate: false
+  xy: 204, 557
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_4
+  rotate: false
+  xy: 204, 204
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_5
+  rotate: true
+  xy: 2, 2
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_6
+  rotate: false
+  xy: 406, 557
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_7
+  rotate: false
+  xy: 406, 204
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_8
+  rotate: false
+  xy: 608, 557
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1
+rs_9
+  rotate: false
+  xy: 608, 204
+  size: 200, 351
+  orig: 200, 351
+  offset: 0, 0
+  index: -1

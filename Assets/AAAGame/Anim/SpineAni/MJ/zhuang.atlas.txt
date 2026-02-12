@@ -1,0 +1,27 @@
+﻿
+zhuang.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hh
+  rotate: false
+  xy: 488, 148
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+light 2
+  rotate: false
+  xy: 2, 2
+  size: 484, 481
+  orig: 484, 481
+  offset: 0, 0
+  index: -1
+yuan zhuang
+  rotate: false
+  xy: 488, 277
+  size: 206, 206
+  orig: 206, 206
+  offset: 0, 0
+  index: -1

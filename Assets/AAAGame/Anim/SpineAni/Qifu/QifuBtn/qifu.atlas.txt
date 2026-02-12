@@ -1,0 +1,83 @@
+﻿
+qifu.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cs
+  rotate: false
+  xy: 2, 2
+  size: 74, 92
+  orig: 74, 92
+  offset: 0, 0
+  index: -1
+fg1
+  rotate: false
+  xy: 2, 298
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg2
+  rotate: false
+  xy: 2, 96
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg3
+  rotate: false
+  xy: 204, 298
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg4
+  rotate: false
+  xy: 204, 96
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg5
+  rotate: false
+  xy: 406, 298
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg6
+  rotate: false
+  xy: 406, 96
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg7
+  rotate: false
+  xy: 608, 298
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+fg8
+  rotate: false
+  xy: 608, 96
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+font_qf
+  rotate: false
+  xy: 810, 357
+  size: 42, 23
+  orig: 42, 23
+  offset: 0, 0
+  index: -1
+quan_w
+  rotate: false
+  xy: 810, 382
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1

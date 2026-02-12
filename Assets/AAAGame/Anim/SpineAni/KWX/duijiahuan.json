@@ -1,0 +1,73 @@
+{
+"skeleton": { "hash": "", "spine": "3.8.33", "width": 620, "height": 277.77, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "jt", "parent": "root", "x": -9.92, "y": 32.19 },
+	{ "name": "jt1", "parent": "jt", "x": -112.62, "y": 80.05, "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "jt2", "parent": "jt", "x": 132.76, "y": -68.92, "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "font", "parent": "root", "x": -9.75, "y": 31.99 }
+],
+"slots": [
+	{ "name": "d", "bone": "root", "attachment": "d" },
+	{ "name": "font", "bone": "font", "attachment": "font3" },
+	{ "name": "jt1", "bone": "jt1", "attachment": "jt21" },
+	{ "name": "jt2", "bone": "jt2", "attachment": "jt22" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"d": {
+				"d": { "y": 35.5, "width": 620, "height": 183 }
+			},
+			"font": {
+				"font3": { "x": 9.75, "y": 3.01, "width": 175, "height": 90 }
+			},
+			"jt1": {
+				"jt21": { "x": 3.29, "y": -14.28, "width": 43, "height": 110 }
+			},
+			"jt2": {
+				"jt22": { "x": 2.77, "y": 9.85, "width": 43, "height": 110 }
+			}
+		}
+	}
+],
+"animations": {
+	"duijiahuan": {
+		"bones": {
+			"jt1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2667, "x": 0, "y": 20.1 },
+					{ "time": 0.5333, "x": 0, "y": 0 },
+					{ "time": 0.8, "x": 0, "y": 20.1 },
+					{ "time": 1.0667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.8, "x": 1.2, "y": 1.2 },
+					{ "time": 1.0667, "x": 1, "y": 1 }
+				]
+			},
+			"jt2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2667, "x": 0, "y": -15 },
+					{ "time": 0.5333, "x": 0, "y": 0 },
+					{ "time": 0.8, "x": 0, "y": -15 },
+					{ "time": 1.0667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.8, "x": 1.2, "y": 1.2 },
+					{ "time": 1.0667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

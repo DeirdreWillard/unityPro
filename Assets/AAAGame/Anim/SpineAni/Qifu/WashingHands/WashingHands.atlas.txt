@@ -1,0 +1,209 @@
+﻿
+WashingHands.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bigFoam
+  rotate: false
+  xy: 268, 411
+  size: 238, 241
+  orig: 238, 241
+  offset: 0, 0
+  index: -1
+bubble
+  rotate: false
+  xy: 508, 481
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+drop
+  rotate: true
+  xy: 675, 831
+  size: 27, 46
+  orig: 27, 46
+  offset: 0, 0
+  index: -1
+font
+  rotate: false
+  xy: 273, 953
+  size: 491, 68
+  orig: 491, 68
+  offset: 0, 0
+  index: -1
+leftHand
+  rotate: false
+  xy: 2, 691
+  size: 269, 330
+  orig: 269, 330
+  offset: 0, 0
+  index: -1
+lightA
+  rotate: false
+  xy: 537, 679
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightB
+  rotate: false
+  xy: 273, 831
+  size: 400, 120
+  orig: 400, 120
+  offset: 0, 0
+  index: -1
+longt
+  rotate: true
+  xy: 2, 31
+  size: 321, 169
+  orig: 321, 169
+  offset: 0, 0
+  index: -1
+rightHand
+  rotate: true
+  xy: 2, 354
+  size: 335, 264
+  orig: 335, 264
+  offset: 0, 0
+  index: -1
+shui1
+  rotate: false
+  xy: 675, 860
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui10
+  rotate: false
+  xy: 364, 132
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui11
+  rotate: false
+  xy: 455, 318
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui12
+  rotate: false
+  xy: 455, 225
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui13
+  rotate: false
+  xy: 455, 132
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui14
+  rotate: true
+  xy: 364, 41
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui15
+  rotate: false
+  xy: 457, 39
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui16
+  rotate: false
+  xy: 508, 561
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui2
+  rotate: false
+  xy: 766, 930
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui3
+  rotate: false
+  xy: 857, 930
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui4
+  rotate: true
+  xy: 766, 839
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui5
+  rotate: false
+  xy: 859, 837
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui6
+  rotate: true
+  xy: 173, 2
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui7
+  rotate: true
+  xy: 266, 2
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui8
+  rotate: false
+  xy: 364, 318
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+shui9
+  rotate: false
+  xy: 364, 225
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+smallFoamONE
+  rotate: true
+  xy: 173, 93
+  size: 259, 189
+  orig: 259, 189
+  offset: 0, 0
+  index: -1
+smallFoamTHREE
+  rotate: false
+  xy: 948, 952
+  size: 58, 69
+  orig: 58, 69
+  offset: 0, 0
+  index: -1
+smallFoamTWO
+  rotate: false
+  xy: 273, 654
+  size: 262, 175
+  orig: 262, 175
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 2, 8
+  size: 53, 21
+  orig: 53, 21
+  offset: 0, 0
+  index: -1

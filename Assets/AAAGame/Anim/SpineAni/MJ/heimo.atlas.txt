@@ -1,0 +1,48 @@
+﻿
+heimo.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light 2
+  rotate: false
+  xy: 1, 1
+  size: 484, 481
+  orig: 484, 481
+  offset: 0, 0
+  index: -1
+hei
+  rotate: false
+  xy: 391, 598
+  size: 104, 107
+  orig: 104, 107
+  offset: 0, 0
+  index: -1
+mo
+  rotate: false
+  xy: 391, 484
+  size: 115, 112
+  orig: 115, 112
+  offset: 0, 0
+  index: -1
+tt
+  rotate: false
+  xy: 1, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+hh
+  rotate: false
+  xy: 131, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1
+jj
+  rotate: false
+  xy: 261, 484
+  size: 128, 127
+  orig: 128, 127
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+﻿
+LuckyTree.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+font
+  rotate: false
+  xy: 2, 276
+  size: 573, 67
+  orig: 573, 67
+  offset: 0, 0
+  index: -1
+jb1
+  rotate: false
+  xy: 573, 620
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+jb2
+  rotate: false
+  xy: 404, 225
+  size: 54, 49
+  orig: 54, 49
+  offset: 0, 0
+  index: -1
+jb3
+  rotate: false
+  xy: 867, 779
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+lightA
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lightB
+  rotate: false
+  xy: 2, 154
+  size: 400, 120
+  orig: 400, 120
+  offset: 0, 0
+  index: -1
+pen
+  rotate: false
+  xy: 573, 664
+  size: 292, 146
+  orig: 292, 146
+  offset: 0, 0
+  index: -1
+shu
+  rotate: false
+  xy: 2, 345
+  size: 569, 465
+  orig: 569, 465
+  offset: 0, 0
+  index: -1

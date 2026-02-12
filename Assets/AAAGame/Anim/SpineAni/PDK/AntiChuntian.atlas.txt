@@ -1,0 +1,62 @@
+﻿
+AntiChuntian.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AntiChuntian/font-hua
+  rotate: false
+  xy: 179, 174
+  size: 214, 80
+  orig: 214, 80
+  offset: 0, 0
+  index: -1
+Chuntian/Flower1
+  rotate: true
+  xy: 238, 25
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+Chuntian/Flower2
+  rotate: false
+  xy: 0, 13
+  size: 129, 110
+  orig: 129, 110
+  offset: 0, 0
+  index: -1
+Chuntian/Flower3
+  rotate: false
+  xy: 292, 90
+  size: 90, 82
+  orig: 90, 82
+  offset: 0, 0
+  index: -1
+Chuntian/Flower4
+  rotate: false
+  xy: 131, 0
+  size: 105, 89
+  orig: 105, 89
+  offset: 0, 0
+  index: -1
+Chuntian/Flower5
+  rotate: true
+  xy: 179, 91
+  size: 81, 111
+  orig: 81, 111
+  offset: 0, 0
+  index: -1
+Chuntian/Flower6
+  rotate: true
+  xy: 395, 168
+  size: 86, 113
+  orig: 86, 113
+  offset: 0, 0
+  index: -1
+Chuntian/Flower7
+  rotate: false
+  xy: 0, 125
+  size: 177, 129
+  orig: 177, 129
+  offset: 0, 0
+  index: -1

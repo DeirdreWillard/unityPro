@@ -1,0 +1,97 @@
+﻿
+feiji.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Propeller FlameA
+  rotate: true
+  xy: 1377, 108
+  size: 169, 198
+  orig: 169, 198
+  offset: 0, 0
+  index: -1
+Propeller FlameB
+  rotate: true
+  xy: 1096, 162
+  size: 115, 279
+  orig: 115, 279
+  offset: 0, 0
+  index: -1
+blur_flow
+  rotate: true
+  xy: 1096, 279
+  size: 216, 459
+  orig: 216, 459
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 549, 168
+  size: 545, 327
+  orig: 545, 327
+  offset: 0, 0
+  index: -1
+body_blur
+  rotate: false
+  xy: 2, 153
+  size: 545, 342
+  orig: 545, 342
+  offset: 0, 0
+  index: -1
+doudizhu_feiji1
+  rotate: true
+  xy: 1799, 103
+  size: 186, 153
+  orig: 186, 153
+  offset: 0, 0
+  index: -1
+doudizhu_feiji3
+  rotate: false
+  xy: 1557, 291
+  size: 355, 204
+  orig: 355, 204
+  offset: 0, 0
+  index: -1
+doudizhu_jiasu
+  rotate: false
+  xy: 1914, 367
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+doudizhu_jiasu2
+  rotate: false
+  xy: 1914, 301
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+doudizhu_tuowei
+  rotate: false
+  xy: 2, 31
+  size: 295, 120
+  orig: 295, 120
+  offset: 0, 0
+  index: -1
+luoxuan
+  rotate: false
+  xy: 2, 2
+  size: 223, 27
+  orig: 223, 27
+  offset: 0, 0
+  index: -1
+luoxuan_blurA
+  rotate: true
+  xy: 1577, 70
+  size: 219, 220
+  orig: 219, 220
+  offset: 0, 0
+  index: -1
+luoxuan_blurB
+  rotate: false
+  xy: 299, 57
+  size: 254, 94
+  orig: 254, 94
+  offset: 0, 0
+  index: -1
