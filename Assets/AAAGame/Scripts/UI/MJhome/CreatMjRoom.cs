@@ -401,11 +401,11 @@ public partial class CreatMjRoom : UIFormBase
     /// </summary>
     private void OnCreateMjFloorResponse(MessageRecvData data)
     {
+        GF.LogInfo_wl("创建楼层响应");
         Msg_CreateMjFloorRs ack = Msg_CreateMjFloorRs.Parser.ParseFrom(data.Data);
         Msg_Floor msg_Floor = ack.Floor;
-        floorList.Add(msg_Floor);
-        //延迟0.2秒调用
-        Invoke("EnterHall", 0.2f);
+        // 标记需要在弹窗关闭后刷新楼层列表
+        needRefreshOnReveal = true;
         Msg_DefaultCreateDeskRq req = MessagePool.Instance.Fetch<Msg_DefaultCreateDeskRq>();
         HotfixNetworkManager.Ins.hotfixNetworkComponent.SendPB3(
             HotfixNetworkComponent.AccountClientName,

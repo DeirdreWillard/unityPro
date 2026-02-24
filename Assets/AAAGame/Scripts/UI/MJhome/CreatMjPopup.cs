@@ -8,6 +8,7 @@ using System;
 using UnityGameFramework.Runtime;
 using System.Linq;
 using System.Data;
+using Google.Protobuf.Collections;
 
 [Obfuz.ObfuzIgnore(Obfuz.ObfuzScope.TypeName)]
 public partial class CreatMjPopup : UIFormBase
@@ -124,7 +125,10 @@ public partial class CreatMjPopup : UIFormBase
 
             for (int i = 0; i < varGameRule.transform.childCount; i++)
             {
-                varGameRule.transform.GetChild(i).gameObject.SetActive(false);
+                Transform child = varGameRule.transform.GetChild(i);
+                child.gameObject.SetActive(false);
+                // 预制体全部应用：初始化所有面板的钻石显示
+                InitializeDiamondDisplay(child.name);
             }
 
             // 确保 configSetter 已初始化（通常在 Awake 中已经初始化）
@@ -233,6 +237,9 @@ public partial class CreatMjPopup : UIFormBase
                     LoadMemoryConfigs(mjType, -1);
                 }
 
+                // 初始化钻石显示
+                InitializeDiamondDisplay(mjType);
+
                 // 切换面板后应用规则限制
                 var config = GetCurrentConfig();
                 if (config is MJConfigManager.XTHHConfigData xthhConfig)
@@ -254,6 +261,119 @@ public partial class CreatMjPopup : UIFormBase
     public string GetCurrentMjType()
     {
         return string.IsNullOrEmpty(chooseMjType) ? toggleNames[0] : chooseMjType;
+    }
+
+    /// <summary>
+    /// 初始化钻石显示 - 在玩法下的所有局数选项中显示对应局数的钻石消耗
+    /// </summary>
+    /// <param name="mjType">麻将类型</param>
+    private void InitializeDiamondDisplay(string mjType)
+    {
+        // 构建路径: 玩法/rule/Viewport/Content/jushu
+        Transform contentTransform = varGameRule.transform.Find($"{mjType}/rule/Viewport/Content");
+        if (contentTransform == null)
+        {
+            GF.LogWarning($"未找到{mjType}的Content路径");
+            return;
+        }
+
+        Transform jushuTransform = contentTransform.Find("jushu");
+        Transform jushuTransform1 = contentTransform.Find("jushu1");
+        
+        // 遍历jushu下除了Text子物体外的所有子物体
+        if (jushuTransform != null)
+        {
+            for (int i = 0; i < jushuTransform.childCount; i++)
+            {
+                Transform child = jushuTransform.GetChild(i);
+                // 跳过名为"Text"的子物体
+                if (child.name == "Text")
+                {
+                    continue; 
+                }
+                // 根据局数获取对应的钻石消耗
+                long diamondCost = GetDiamondCostByRounds(mjType, child.name);
+                
+                // 查找 ZSbg/num 路径下的Text组件
+                Transform numTransform = child.Find("ZSbg/num");
+                Text numText = numTransform?.GetComponent<Text>();
+                if (numText != null)
+                {
+                    numText.text = $"X{diamondCost}";
+                    GF.LogInfo_wl($"初始化{mjType}玩法下局数{child.name}的钻石显示: {diamondCost}");
+                }
+            }
+        }
+        
+        if (jushuTransform1 != null)
+        {
+            for (int i = 0; i < jushuTransform1.childCount; i++)
+            {
+                Transform child = jushuTransform1.GetChild(i);
+                // 跳过名为"Text"的子物体
+                if (child.name == "Text")
+                {
+                    continue;
+                }
+                
+                // 根据局数获取对应的钻石消耗
+                long diamondCost = GetDiamondCostByRounds(mjType, child.name);
+                
+                // 查找 ZSbg/num 路径下的Text组件
+                Transform numTransform = child.Find("ZSbg/num");
+                Text numText = numTransform?.GetComponent<Text>();
+                if (numText != null)
+                {
+                    numText.text = $"X{diamondCost}";
+                    GF.LogInfo_wl($"初始化{mjType}玩法下局数{child.name}的钻石显示: {diamondCost}");
+                }
+            }
+        }
+    }
+    
+    /// <summary>
+    /// 根据麻将类型和局数获取对应的钻石消耗
+    /// </summary>
+    /// <param name="mjType">麻将类型</param>
+    /// <param name="roundsName">局数名称(如"4"、"8"、"16"等)</param>
+    /// <returns>对应的钻石消耗</returns>
+    private long GetDiamondCostByRounds(string mjType, string roundsName)
+    {
+        // 尝试解析局数
+        if (!int.TryParse(roundsName, out int rounds))
+        {
+            GF.LogWarning($"无法解析局数: {roundsName}");
+            return 0;
+        }
+        
+        // 获取玩法类型
+        MethodType methodType = MjGameType.GetMethodType(mjType);
+        
+        // 根据当前模式和联盟信息判断房间类型
+        DeskType deskType;
+        var leagueInfo = GlobalManager.GetInstance().LeagueInfo;
+        
+        if (currentMode == OperationMode.CreateRoom)
+        {
+            // 创建个人房间
+            deskType = DeskType.Simple;
+        }
+        else if (leagueInfo != null)
+        {
+            // 创建楼层或编辑房间,根据联盟类型确定
+            deskType = GetDeskType(leagueInfo.Type);
+        }
+        else
+        {
+            // 默认为个人房
+            deskType = DeskType.Simple;
+        }
+        
+        // 调用GlobalManager的方法获取钻石消耗
+        int diamondCost = GlobalManager.GetInstance().GetCreateDeskCostByRound(methodType, rounds, deskType);
+        
+        GF.LogInfo_wl($"查询{mjType}局数{rounds}房间类型{deskType}的钻石消耗: {diamondCost}");
+        return diamondCost;
     }
 
     /// <summary>
@@ -1642,7 +1762,7 @@ public partial class CreatMjPopup : UIFormBase
         // 设置基础配置
         SetToggleByName(content, "renshu", floorData.Config.PlayerNum.ToString(), true);
         SetToggleByName(content, "jushu", floorData.Config.PlayerTime.ToString(), true);
-        SetToggleByName(content, "jushu (1)", floorData.Config.PlayerTime.ToString(), true);
+        SetToggleByName(content, "jushu1", floorData.Config.PlayerTime.ToString(), true);
         // 设置跑的快特有配置
         SetToggleByName(content, "xianchu", floorData.RunFastConfig.FirstRun.ToString(), true); // 先出权
         SetToggleByName(content, "wanfa0", floorData.RunFastConfig.Play.ToString(), true); // 玩法
@@ -1650,7 +1770,7 @@ public partial class CreatMjPopup : UIFormBase
 
         // 【修复】先重置所有复选框为 false，防止旧选项残留
         ResetAllTogglesInGroup(content, "wanfa1", false);
-        ResetAllTogglesInGroup(content, "wanfa2", false); 
+        ResetAllTogglesInGroup(content, "wanfa2", false);
         ResetAllTogglesInGroup(content, "wanfa3", false);
         ResetAllTogglesInGroup(content, "wanfa4", false);
         ResetAllTogglesInGroup(content, "wanfa5", false);
@@ -2467,11 +2587,9 @@ public partial class CreatMjPopup : UIFormBase
         // 设置通用配置 禁用语音和禁用打字
         SetToggleByName(content, "gaoji", "jinyongyuying", floorData.Config.ForbidVoice);
         SetToggleByName(content, "gaoji", "jinyongdazi", floorData.Config.Forbid);
-
         // 设置基础配置
         SetToggleByName(content, "renshu", floorData.Config.PlayerNum.ToString(), true);
         SetToggleByName(content, "jushu", floorData.Config.PlayerTime.ToString(), true);
-
         // 设置血流成河特有配置
         SetToggleByName(content, "fanshu", floorData.MjConfig.XlConfig.Fan.ToString(), true); // 番型
         SetToggleByName(content, "piao1", floorData.MjConfig.XlConfig.Piao.ToString(), true); // 飘
